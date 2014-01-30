@@ -1,0 +1,42 @@
+<html>
+
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/> 
+    <link rel="stylesheet" href="/dojolib/dijit/themes/claro/claro.css">
+  </head>
+
+  <body class="claro">
+ 
+    <script>
+        var dojoConfig = {
+           packages: [
+	            {name: "dojo",  location: "/dojolib/dojo"},
+	            {name: "dijit", location: "/dojolib/dijit"},
+	            {name: "dojox", location: "/dojolib/dojox"},
+  	        ]
+        };
+    </script>
+    <script data-dojo-config="async: true" src="/dojolib/dojo/dojo.js"></script>
+
+    <script>
+        require(["dojo/request",
+                 "dojox/atom/io/model",
+                 "dojo/_base/array",
+                 "dojo/domReady!"], function (request, atom_feed_model, array) {
+                request.get("/AtomFeed/feed.xml", {
+                    handleAs: 'xml'                            
+                }).then(function (resp) {
+                    var feed = atom_feed_model.Feed();
+                    feed.buildFromDom(resp.documentElement);
+                    var feed_items = array.map(feed.entries, function (item) {
+                        return {
+                            title: item.title.value,
+                            summary: item.summary.value
+                        };
+                    });
+                    console.log(feed_items);
+                });                
+            });
+    </script>
+  </body>
+</html>

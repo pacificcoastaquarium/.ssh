@@ -1,0 +1,44 @@
+<html>
+
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/> 
+    <link rel="stylesheet" href="/dojolib/dijit/themes/claro/claro.css">
+  </head>
+
+  <body class="claro">
+    <div id="targetID" style="height:100px; background-color: lightBlue; padding: 8px; overflow-y: auto;">
+The Dijit ContentPane is a basic layout widget that gives you the ultimate in control over your dynamic Web content. You can update the content inside one of these panes via the content or href properties as well as attach code to various callback functions. 
+    </div>
+
+    <script>
+        var dojoConfig = {
+           packages: [
+	            {name: "dojo",  location: "/dojolib/dojo"},
+	            {name: "dijit", location: "/dojolib/dijit"},
+	            {name: "dojox", location: "/dojolib/dojox"},
+  	        ]
+        };
+    </script>
+    <script data-dojo-config="async: true" src="/dojolib/dojo/dojo.js"></script>
+
+    <script>
+        require(["dojo/dom",
+                 "dojo/dom-style",
+                 "dijit/layout/ContentPane",
+                 "dojo/domReady!"], function (dom, domStyle, ContentPane) {
+
+                var cpane = new ContentPane({
+                    content: dom.byId('targetID').innerHTML
+                }, "targetID");
+                
+                cpane.on('mouseover', function () {
+                    domStyle.set(this.domNode, {"background": 'gold'});
+                });
+                cpane.on('mouseleave', function () {
+                    domStyle.set(this.domNode, {"background": 'lightBlue'});
+                });
+                var __stop_here = 1; // for debug break
+            });
+    </script>
+  </body>
+</html>

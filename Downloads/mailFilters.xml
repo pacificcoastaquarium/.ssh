@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?><feed xmlns='http://www.w3.org/2005/Atom' xmlns:apps='http://schemas.google.com/apps/2006'>
+	<title>Mail Filters</title>
+	<id>tag:mail.google.com,2008:filters:1390722836272</id>
+	<updated>2014-01-26T07:54:16Z</updated>
+	<author>
+		<name>Denice Vargo</name>
+		<email>denicevargo@gmail.com</email>
+	</author>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1390722836272</id>
+		<updated>2014-01-26T07:54:16Z</updated>
+		<content></content>
+		<apps:property name='from' value='chad.lv.davis@gmail.com'/>
+		<apps:property name='label' value='[Imap]/Trash'/>
+	</entry>
+</feed>

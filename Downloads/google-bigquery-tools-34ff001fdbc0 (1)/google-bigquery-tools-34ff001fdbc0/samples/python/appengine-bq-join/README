@@ -1,0 +1,10 @@
+App Engine Sample Featuring BigQuery
+
+INSTALLATION:
+Follow the instructions for enable-app-engine-project
+here to add the required libraries:
+   http://code.google.com/p/google-api-python-client/wiki/GoogleAppEngine
+
+Replace the info in square brackets with your info in
+   client_secrets.json
+   main.py

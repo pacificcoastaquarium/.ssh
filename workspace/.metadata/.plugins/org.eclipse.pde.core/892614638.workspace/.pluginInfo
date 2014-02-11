@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map>
+	<bundle bundleID="450" class="org.eclipse.ui.examples.readmetool.ReadmePlugin" localization="plugin" name="%Plugin.name" project="org.eclipse.ui.examples.readmetool" provider="%Plugin.providerName">
+		<library name="readmetool.jar"/>
+	</bundle>
+	<bundle bundleID="451" class="org.eclipse.ui.examples.propertysheet.PropertySheetPlugin" localization="plugin" name="%Plugin.name" project="org.eclipse.ui.examples.propertysheet" provider="%Plugin.providerName">
+		<library name="propertysheet.jar"/>
+	</bundle>
+</map>

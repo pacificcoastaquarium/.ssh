@@ -1,4 +1,0 @@
-.ssh
-====
-
-add the keys

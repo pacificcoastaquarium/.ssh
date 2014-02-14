@@ -1,0 +1,88 @@
+<html>
+
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/> 
+    <link rel="stylesheet" href="/dojolib/dijit/themes/tundrax/tundrax.css">
+    <link rel="stylesheet" href="/olesk/themes/ololo/GoogleBlogger.css">
+
+    <style>
+        .b-postSummary {
+            margin-bottom: 7px;
+        }
+    </style>
+  </head>
+
+  <body class="tundrax">
+    <div id="targetID" style="width: 600px;">
+        <div class="dijitTitlePaneTitle dijitOpen">
+		    <div class="dijitTitlePaneTitleFocus">
+    			<span class="dijitTitlePaneTextNode" style="-moz-user-select: none; margin-left: 4px;">Recent posts</span>
+		    </div>
+	    </div>
+    </div>
+    <script>
+        var dojoConfig = {
+           packages: [
+	            {name: "dojo",  location: "/dojolib/dojo"},
+	            {name: "dijit", location: "/dojolib/dijit"},
+	            {name: "dojox", location: "/dojolib/dojox"},
+                {name: "olesk", location: "/olesk"}
+  	        ]
+        };
+    </script>
+    <script data-dojo-config="async: true" src="/dojolib/dojo/dojo.js"></script>
+
+    <script>
+        require(["dojo/request",
+                 "dojox/atom/io/model",
+                 "dojo/_base/array",
+                 "dijit/TitlePane",
+                 "olesk/GoogleBlogger/PostSummary",
+                 "dojo/domReady!"], function (request, atom_feed_model, array, TitlePane, PostSummary) {
+                
+                var tpane = new TitlePane({
+                        style: "width: 600px;",
+                        title: 'Recent posts',
+                        content: '<div style="text-align:center;">'
+                                 +'<span class="loading_indicator"></span></div>',
+                        open: true,
+                        toggleable: false,
+                        duration: 500
+                    }, "targetID");
+
+                request.get("/GoogleBlogger/feed.xml", {
+                    handleAs: 'xml'                            
+                }).then(function (resp) {
+
+                    var
+                        docFragment = document.createDocumentFragment(),
+                        feed = atom_feed_model.Feed(),
+                        feed_items;
+
+                    feed.buildFromDom(resp.documentElement);
+
+                    feed_items = array.map(feed.entries, function (item) {
+                        return {
+                            title: item.title.value,
+                            summary: item.summary.value
+                        };
+                    });
+
+                    array.forEach(feed_items, function (item) {
+                        docFragment.appendChild(
+                            (new PostSummary({
+                                postTitle: item.title,
+                                postExcept: item.summary
+                            })).domNode
+                        );
+                    });
+
+                    setTimeout(function () {
+                        tpane.set('content', docFragment);
+                    }, 1500);
+                });
+       
+            });
+    </script>
+  </body>
+</html>

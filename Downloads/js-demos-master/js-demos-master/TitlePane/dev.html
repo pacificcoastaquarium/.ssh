@@ -1,0 +1,47 @@
+<html>
+
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/> 
+    <link rel="stylesheet" href="/dojolib/dijit/themes/claro/claro.css">
+  </head>
+
+  <body class="claro">
+    <div id="targetID" style="">
+        <div class="dijitTitlePaneTitle dijitOpen">
+		    <div class="dijitTitlePaneTitleFocus">
+    			<span class="dijitTitlePaneTextNode" style="-moz-user-select: none; margin-left: 11px;">Ты - хуй</span>
+		    </div>
+	    </div>
+        <div id="contentID"  style="display: none;">
+            The Dijit ContentPane is a basic layout widget that gives you the ultimate in control over your dynamic Web content. You can update the content inside one of these panes via the content or href properties as well as attach code to various callback functions.
+        </div>
+    </div>
+
+    <script>
+        var dojoConfig = {
+           packages: [
+	            {name: "dojo",  location: "/dojolib/dojo"},
+	            {name: "dijit", location: "/dojolib/dijit"},
+	            {name: "dojox", location: "/dojolib/dojox"},
+  	        ]
+        };
+    </script>
+    <script data-dojo-config="async: true" src="/dojolib/dojo/dojo.js"></script>
+
+    <script>
+        require(["dojo/dom",
+                 "dojo/dom-style",
+                 "dijit/TitlePane",
+                 "dojo/domReady!"], function (dom, domStyle, TitlePane) {
+
+                var tpane = new TitlePane({
+                    title: 'Ты - хуй',
+                    content: dom.byId('contentID').innerHTML,
+                    open: false,
+                    duration: 400
+                }, "targetID");
+                var __stop_here = 1; // for debug break
+            });
+    </script>
+  </body>
+</html>

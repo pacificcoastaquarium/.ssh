@@ -1,0 +1,524 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?metadataRepository version='1.1.0'?>
+<repository name='update site: http://www.eclipse.org/pde/samples/site.xml' type='org.eclipse.equinox.internal.p2.metadata.repository.LocalMetadataRepository' version='1'>
+  <properties size='2'>
+    <property name='p2.timestamp' value='1390745296984'/>
+    <property name='site.checksum' value='4172717842'/>
+  </properties>
+  <units size='16'>
+    <unit id='org.eclipse.sdk.samples.feature.group' version='3.0.0' singleton='false'>
+      <update id='org.eclipse.sdk.samples.feature.group' range='[0.0.0,3.0.0)' severity='0'/>
+      <properties size='8'>
+        <property name='org.eclipse.equinox.p2.name' value='%featureName'/>
+        <property name='org.eclipse.equinox.p2.description' value='%description'/>
+        <property name='org.eclipse.equinox.p2.provider' value='Eclipse.org'/>
+        <property name='org.eclipse.equinox.p2.type.group' value='true'/>
+        <property name='df_LT.featureName' value='Eclipse SDK Samples'/>
+        <property name='df_LT.description' value='Eclipse SDK code samples designed to work with Eclipse SDK 3.0 release.'/>
+        <property name='df_LT.copyright' value='Copyright 2004 IBM and others.'/>
+        <property name='df_LT.license' value='ECLIPSE.ORG SOFTWARE USER AGREEMENT&#xA;14th August, 2003&#xA;&#xA;Usage Of Content&#xA;&#xA;ECLIPSE.ORG MAKES AVAILABLE SOFTWARE, DOCUMENTATION, INFORMATION AND/OR&#xA;OTHER MATERIALS FOR OPEN SOURCE PROJECTS (COLLECTIVELY &quot;CONTENT&quot;).&#xA;USE OF THE CONTENT IS GOVERNED BY THE TERMS AND CONDITIONS OF THIS&#xA;AGREEMENT AND/OR THE TERMS AND CONDITIONS OF LICENSE AGREEMENTS OR&#xA;NOTICES INDICATED OR REFERENCED BELOW. BY USING THE CONTENT, YOU&#xA;AGREE THAT YOUR USE OF THE CONTENT IS GOVERNED BY THIS AGREEMENT&#xA;AND/OR THE TERMS AND CONDITIONS OF ANY APPLICABLE LICENSE AGREEMENTS&#xA;OR NOTICES INDICATED OR REFERENCED BELOW. IF YOU DO NOT AGREE TO THE&#xA;TERMS AND CONDITIONS OF THIS AGREEMENT AND THE TERMS AND CONDITIONS&#xA;OF ANY APPLICABLE LICENSE AGREEMENTS OR NOTICES INDICATED OR REFERENCED&#xA;BELOW, THEN YOU MAY NOT USE THE CONTENT.&#xA;&#xA;Applicable Licenses&#xA;&#xA;Unless otherwise indicated, all Content made available by Eclipse.org&#xA;is provided to you under the terms and conditions of the Common Public&#xA;License Version 1.0 (&quot;CPL&quot;). A copy of the CPL is provided with this&#xA;Content and is also available at http://www.eclipse.org/legal/cpl-v10.html.&#xA;For purposes of the CPL, &quot;Program&quot; will mean the Content.&#xA;&#xA;Content includes, but is not limited to, source code, object code,&#xA;documentation and other files maintained in the Eclipse.org CVS&#xA;repository (&quot;Repository&quot;) in CVS modules (&quot;Modules&quot;) and made available&#xA;as downloadable archives (&quot;Downloads&quot;).&#xA;&#xA;Content may be apportioned into plug-ins (&quot;Plug-ins&quot;), plug-in fragments&#xA;(&quot;Fragments&quot;), and features (&quot;Features&quot;). A Feature is a bundle of one or&#xA;more Plug-ins and/or Fragments and associated material. Files named&#xA;&quot;feature.xml&quot; may contain a list of the names and version numbers of the&#xA;Plug-ins and/or Fragments associated with a Feature. Plug-ins and Fragments&#xA;are located in directories named &quot;plugins&quot; and Features are located in&#xA;directories named &quot;features&quot;.&#xA;&#xA;Features may also include other Features (&quot;Included Features&quot;). Files named&#xA;&quot;feature.xml&quot; may contain a list of the names and version numbers of&#xA;Included Features.&#xA;&#xA;The terms and conditions governing Plug-ins and Fragments should be&#xA;contained in files named &quot;about.html&quot; (&quot;Abouts&quot;). The terms and&#xA;conditions governing Features and Included Features should be contained&#xA;in files named &quot;license.html&quot; (&quot;Feature Licenses&quot;). Abouts and Feature&#xA;Licenses may be located in any directory of a Download or Module&#xA;including, but not limited to the following locations:&#xA;&#xA;- The top-level (root) directory&#xA;- Plug-in and Fragment directories&#xA;- Subdirectories of the directory named &quot;src&quot; of certain Plug-ins&#xA;- Feature directories&#xA;&#xA;Note: if a Feature made available by Eclipse.org is installed using the&#xA;Eclipse Update Manager, you must agree to a license (&quot;Feature Update&#xA;License&quot;) during the installation process. If the Feature contains&#xA;Included Features, the Feature Update License should either provide you&#xA;with the terms and conditions governing the Included Features or inform&#xA;you where you can locate them. Feature Update Licenses may be found in&#xA;the &quot;license&quot; property of files named &quot;feature.properties&quot;. Such Abouts,&#xA;Feature Licenses and Feature Update Licenses contain the terms and&#xA;conditions (or references to such terms and conditions) that govern your&#xA;use of the associated Content in that directory.&#xA;&#xA;THE ABOUTS, FEATURE LICENSES AND FEATURE UPDATE LICENSES MAY REFER&#xA;TO THE CPL OR OTHER LICENSE AGREEMENTS, NOTICES OR TERMS AND CONDITIONS.&#xA;SOME OF THESE OTHER LICENSE AGREEMENTS MAY INCLUDE (BUT ARE NOT LIMITED TO):&#xA;&#xA;- Apache Software License 1.1 (available at http://www.apache.org/licenses/LICENSE)&#xA;- IBM Public License 1.0 (available at http://oss.software.ibm.com/developerworks/opensource/license10.html)&#xA;- Metro Link Public License 1.00 (available at http://www.opengroup.org/openmotif/supporters/metrolink/license.html)&#xA;- Mozilla Public License Version 1.1 (available at http://www.mozilla.org/MPL/MPL-1.1.html)&#xA;&#xA;IT IS YOUR OBLIGATION TO READ AND ACCEPT ALL SUCH TERMS AND CONDITIONS PRIOR&#xA;TO USE OF THE CONTENT. If no About, Feature License or Feature Update License&#xA;is provided, please contact Eclipse.org to determine what terms and conditions&#xA;govern that particular Content.&#xA;&#xA;Cryptography&#xA;&#xA;Content may contain encryption software. The country in which you are&#xA;currently may have restrictions on the import, possession, and use,&#xA;and/or re-export to another country, of encryption software. BEFORE&#xA;using any encryption software, please check the country&apos;s laws,&#xA;regulations and policies concerning the import, possession, or use,&#xA;and re-export of encryption software, to see if this is permitted.&#xA;'/>
+      </properties>
+      <provides size='2'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.sdk.samples.feature.group' version='3.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.localization' name='df_LT' version='1.0.0'/>
+      </provides>
+      <requires size='3'>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.sdk.feature.group' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.sdk.samples' range='[3.0.0,3.0.0]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.sdk.samples.feature.jar' range='[3.0.0,3.0.0]'>
+          <filter>
+            (org.eclipse.update.install.features=true)
+          </filter>
+        </required>
+      </requires>
+      <touchpoint id='null' version='0.0.0'/>
+      <licenses size='1'>
+        <license>
+          %license
+        </license>
+      </licenses>
+      <copyright>
+        %copyright
+      </copyright>
+    </unit>
+    <unit id='org.eclipse.sdk.samples.feature.jar' version='3.0.0'>
+      <properties size='7'>
+        <property name='org.eclipse.equinox.p2.name' value='%featureName'/>
+        <property name='org.eclipse.equinox.p2.description' value='%description'/>
+        <property name='org.eclipse.equinox.p2.provider' value='Eclipse.org'/>
+        <property name='df_LT.featureName' value='Eclipse SDK Samples'/>
+        <property name='df_LT.description' value='Eclipse SDK code samples designed to work with Eclipse SDK 3.0 release.'/>
+        <property name='df_LT.copyright' value='Copyright 2004 IBM and others.'/>
+        <property name='df_LT.license' value='ECLIPSE.ORG SOFTWARE USER AGREEMENT&#xA;14th August, 2003&#xA;&#xA;Usage Of Content&#xA;&#xA;ECLIPSE.ORG MAKES AVAILABLE SOFTWARE, DOCUMENTATION, INFORMATION AND/OR&#xA;OTHER MATERIALS FOR OPEN SOURCE PROJECTS (COLLECTIVELY &quot;CONTENT&quot;).&#xA;USE OF THE CONTENT IS GOVERNED BY THE TERMS AND CONDITIONS OF THIS&#xA;AGREEMENT AND/OR THE TERMS AND CONDITIONS OF LICENSE AGREEMENTS OR&#xA;NOTICES INDICATED OR REFERENCED BELOW. BY USING THE CONTENT, YOU&#xA;AGREE THAT YOUR USE OF THE CONTENT IS GOVERNED BY THIS AGREEMENT&#xA;AND/OR THE TERMS AND CONDITIONS OF ANY APPLICABLE LICENSE AGREEMENTS&#xA;OR NOTICES INDICATED OR REFERENCED BELOW. IF YOU DO NOT AGREE TO THE&#xA;TERMS AND CONDITIONS OF THIS AGREEMENT AND THE TERMS AND CONDITIONS&#xA;OF ANY APPLICABLE LICENSE AGREEMENTS OR NOTICES INDICATED OR REFERENCED&#xA;BELOW, THEN YOU MAY NOT USE THE CONTENT.&#xA;&#xA;Applicable Licenses&#xA;&#xA;Unless otherwise indicated, all Content made available by Eclipse.org&#xA;is provided to you under the terms and conditions of the Common Public&#xA;License Version 1.0 (&quot;CPL&quot;). A copy of the CPL is provided with this&#xA;Content and is also available at http://www.eclipse.org/legal/cpl-v10.html.&#xA;For purposes of the CPL, &quot;Program&quot; will mean the Content.&#xA;&#xA;Content includes, but is not limited to, source code, object code,&#xA;documentation and other files maintained in the Eclipse.org CVS&#xA;repository (&quot;Repository&quot;) in CVS modules (&quot;Modules&quot;) and made available&#xA;as downloadable archives (&quot;Downloads&quot;).&#xA;&#xA;Content may be apportioned into plug-ins (&quot;Plug-ins&quot;), plug-in fragments&#xA;(&quot;Fragments&quot;), and features (&quot;Features&quot;). A Feature is a bundle of one or&#xA;more Plug-ins and/or Fragments and associated material. Files named&#xA;&quot;feature.xml&quot; may contain a list of the names and version numbers of the&#xA;Plug-ins and/or Fragments associated with a Feature. Plug-ins and Fragments&#xA;are located in directories named &quot;plugins&quot; and Features are located in&#xA;directories named &quot;features&quot;.&#xA;&#xA;Features may also include other Features (&quot;Included Features&quot;). Files named&#xA;&quot;feature.xml&quot; may contain a list of the names and version numbers of&#xA;Included Features.&#xA;&#xA;The terms and conditions governing Plug-ins and Fragments should be&#xA;contained in files named &quot;about.html&quot; (&quot;Abouts&quot;). The terms and&#xA;conditions governing Features and Included Features should be contained&#xA;in files named &quot;license.html&quot; (&quot;Feature Licenses&quot;). Abouts and Feature&#xA;Licenses may be located in any directory of a Download or Module&#xA;including, but not limited to the following locations:&#xA;&#xA;- The top-level (root) directory&#xA;- Plug-in and Fragment directories&#xA;- Subdirectories of the directory named &quot;src&quot; of certain Plug-ins&#xA;- Feature directories&#xA;&#xA;Note: if a Feature made available by Eclipse.org is installed using the&#xA;Eclipse Update Manager, you must agree to a license (&quot;Feature Update&#xA;License&quot;) during the installation process. If the Feature contains&#xA;Included Features, the Feature Update License should either provide you&#xA;with the terms and conditions governing the Included Features or inform&#xA;you where you can locate them. Feature Update Licenses may be found in&#xA;the &quot;license&quot; property of files named &quot;feature.properties&quot;. Such Abouts,&#xA;Feature Licenses and Feature Update Licenses contain the terms and&#xA;conditions (or references to such terms and conditions) that govern your&#xA;use of the associated Content in that directory.&#xA;&#xA;THE ABOUTS, FEATURE LICENSES AND FEATURE UPDATE LICENSES MAY REFER&#xA;TO THE CPL OR OTHER LICENSE AGREEMENTS, NOTICES OR TERMS AND CONDITIONS.&#xA;SOME OF THESE OTHER LICENSE AGREEMENTS MAY INCLUDE (BUT ARE NOT LIMITED TO):&#xA;&#xA;- Apache Software License 1.1 (available at http://www.apache.org/licenses/LICENSE)&#xA;- IBM Public License 1.0 (available at http://oss.software.ibm.com/developerworks/opensource/license10.html)&#xA;- Metro Link Public License 1.00 (available at http://www.opengroup.org/openmotif/supporters/metrolink/license.html)&#xA;- Mozilla Public License Version 1.1 (available at http://www.mozilla.org/MPL/MPL-1.1.html)&#xA;&#xA;IT IS YOUR OBLIGATION TO READ AND ACCEPT ALL SUCH TERMS AND CONDITIONS PRIOR&#xA;TO USE OF THE CONTENT. If no About, Feature License or Feature Update License&#xA;is provided, please contact Eclipse.org to determine what terms and conditions&#xA;govern that particular Content.&#xA;&#xA;Cryptography&#xA;&#xA;Content may contain encryption software. The country in which you are&#xA;currently may have restrictions on the import, possession, and use,&#xA;and/or re-export to another country, of encryption software. BEFORE&#xA;using any encryption software, please check the country&apos;s laws,&#xA;regulations and policies concerning the import, possession, or use,&#xA;and re-export of encryption software, to see if this is permitted.&#xA;'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.sdk.samples.feature.jar' version='3.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='feature' version='1.0.0'/>
+        <provided namespace='org.eclipse.update.feature' name='org.eclipse.sdk.samples' version='3.0.0'/>
+      </provides>
+      <filter>
+        (org.eclipse.update.install.features=true)
+      </filter>
+      <artifacts size='1'>
+        <artifact classifier='org.eclipse.update.feature' id='org.eclipse.sdk.samples' version='3.0.0'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='zipped'>
+            true
+          </instruction>
+        </instructions>
+      </touchpointData>
+      <licenses size='1'>
+        <license>
+          %license
+        </license>
+      </licenses>
+      <copyright>
+        %copyright
+      </copyright>
+    </unit>
+    <unit id='org.eclipse.sdk.samples.feature.group' version='3.3.0' singleton='false'>
+      <update id='org.eclipse.sdk.samples.feature.group' range='[0.0.0,3.3.0)' severity='0'/>
+      <properties size='8'>
+        <property name='org.eclipse.equinox.p2.name' value='%featureName'/>
+        <property name='org.eclipse.equinox.p2.description' value='%description'/>
+        <property name='org.eclipse.equinox.p2.provider' value='Eclipse.org'/>
+        <property name='org.eclipse.equinox.p2.type.group' value='true'/>
+        <property name='df_LT.featureName' value='Eclipse SDK Samples'/>
+        <property name='df_LT.description' value='Eclipse SDK code samples designed to work with Eclipse SDK 3.3 release.'/>
+        <property name='df_LT.copyright' value='Copyright 2004, 2007 IBM and others.'/>
+        <property name='df_LT.license' value='ECLIPSE FOUNDATION SOFTWARE USER AGREEMENT&#xA;January 28, 2004&#xA;&#xA;Usage Of Content&#xA;&#xA;THE ECLIPSE FOUNDATION MAKES AVAILABLE SOFTWARE, DOCUMENTATION, INFORMATION AND/OR&#xA;OTHER MATERIALS FOR OPEN SOURCE PROJECTS (COLLECTIVELY &quot;CONTENT&quot;).&#xA;USE OF THE CONTENT IS GOVERNED BY THE TERMS AND CONDITIONS OF THIS&#xA;AGREEMENT AND/OR THE TERMS AND CONDITIONS OF LICENSE AGREEMENTS OR&#xA;NOTICES INDICATED OR REFERENCED BELOW. BY USING THE CONTENT, YOU&#xA;AGREE THAT YOUR USE OF THE CONTENT IS GOVERNED BY THIS AGREEMENT&#xA;AND/OR THE TERMS AND CONDITIONS OF ANY APPLICABLE LICENSE AGREEMENTS&#xA;OR NOTICES INDICATED OR REFERENCED BELOW. IF YOU DO NOT AGREE TO THE&#xA;TERMS AND CONDITIONS OF THIS AGREEMENT AND THE TERMS AND CONDITIONS&#xA;OF ANY APPLICABLE LICENSE AGREEMENTS OR NOTICES INDICATED OR REFERENCED&#xA;BELOW, THEN YOU MAY NOT USE THE CONTENT.&#xA;&#xA;Applicable Licenses&#xA;&#xA;Unless otherwise indicated, all Content made available by the Eclipse Foundation&#xA;is provided to you under the terms and conditions of the Eclipse Public&#xA;License Version 1.0 (&quot;EPL&quot;). A copy of the EPL is provided with this&#xA;Content and is also available at http://www.eclipse.org/legal/epl-v10.html.&#xA;For purposes of the EPL, &quot;Program&quot; will mean the Content.&#xA;&#xA;Content includes, but is not limited to, source code, object code,&#xA;documentation and other files maintained in the Eclipse.org CVS&#xA;repository (&quot;Repository&quot;) in CVS modules (&quot;Modules&quot;) and made available&#xA;as downloadable archives (&quot;Downloads&quot;).&#xA;&#xA;Content may be apportioned into plug-ins (&quot;Plug-ins&quot;), plug-in fragments&#xA;(&quot;Fragments&quot;), and features (&quot;Features&quot;). A Feature is a bundle of one or&#xA;more Plug-ins and/or Fragments and associated material. Files named&#xA;&quot;feature.xml&quot; may contain a list of the names and version numbers of the&#xA;Plug-ins and/or Fragments associated with a Feature. Plug-ins and Fragments&#xA;are located in directories named &quot;plugins&quot; and Features are located in&#xA;directories named &quot;features&quot;.&#xA;&#xA;Features may also include other Features (&quot;Included Features&quot;). Files named&#xA;&quot;feature.xml&quot; may contain a list of the names and version numbers of&#xA;Included Features.&#xA;&#xA;The terms and conditions governing Plug-ins and Fragments should be&#xA;contained in files named &quot;about.html&quot; (&quot;Abouts&quot;). The terms and&#xA;conditions governing Features and Included Features should be contained&#xA;in files named &quot;license.html&quot; (&quot;Feature Licenses&quot;). Abouts and Feature&#xA;Licenses may be located in any directory of a Download or Module&#xA;including, but not limited to the following locations:&#xA;&#xA;- The top-level (root) directory&#xA;- Plug-in and Fragment directories&#xA;- Subdirectories of the directory named &quot;src&quot; of certain Plug-ins&#xA;- Feature directories&#xA;&#xA;Note: if a Feature made available by the Eclipse Foundation is installed using the&#xA;Eclipse Update Manager, you must agree to a license (&quot;Feature Update&#xA;License&quot;) during the installation process. If the Feature contains&#xA;Included Features, the Feature Update License should either provide you&#xA;with the terms and conditions governing the Included Features or inform&#xA;you where you can locate them. Feature Update Licenses may be found in&#xA;the &quot;license&quot; property of files named &quot;feature.properties&quot;. Such Abouts,&#xA;Feature Licenses and Feature Update Licenses contain the terms and&#xA;conditions (or references to such terms and conditions) that govern your&#xA;use of the associated Content in that directory.&#xA;&#xA;THE ABOUTS, FEATURE LICENSES AND FEATURE UPDATE LICENSES MAY REFER&#xA;TO THE CPL OR OTHER LICENSE AGREEMENTS, NOTICES OR TERMS AND CONDITIONS.&#xA;SOME OF THESE OTHER LICENSE AGREEMENTS MAY INCLUDE (BUT ARE NOT LIMITED TO):&#xA;&#xA;- Common Public License Version 1.0 (available at http://www.eclipse.org/legal/cpl-v10.html)&#xA;- Apache Software License 1.1 (available at http://www.apache.org/licenses/LICENSE)&#xA;- Apache Software License 2.0 (available at http://www.apache.org/licenses/LICENSE-2.0)&#xA;- IBM Public License 1.0 (available at http://oss.software.ibm.com/developerworks/opensource/license10.html)&#xA;- Metro Link Public License 1.00 (available at http://www.opengroup.org/openmotif/supporters/metrolink/license.html)&#xA;- Mozilla Public License Version 1.1 (available at http://www.mozilla.org/MPL/MPL-1.1.html)&#xA;&#xA;IT IS YOUR OBLIGATION TO READ AND ACCEPT ALL SUCH TERMS AND CONDITIONS PRIOR&#xA;TO USE OF THE CONTENT. If no About, Feature License or Feature Update License&#xA;is provided, please contact the Eclipse Foundation to determine what terms and conditions&#xA;govern that particular Content.&#xA;&#xA;Cryptography&#xA;&#xA;Content may contain encryption software. The country in which you are&#xA;currently may have restrictions on the import, possession, and use,&#xA;and/or re-export to another country, of encryption software. BEFORE&#xA;using any encryption software, please check the country&apos;s laws,&#xA;regulations and policies concerning the import, possession, or use,&#xA;and re-export of encryption software, to see if this is permitted.&#xA;'/>
+      </properties>
+      <provides size='2'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.sdk.samples.feature.group' version='3.3.0'/>
+        <provided namespace='org.eclipse.equinox.p2.localization' name='df_LT' version='1.0.0'/>
+      </provides>
+      <requires size='5'>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.platform.feature.group' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.jdt.feature.group' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.pde.feature.group' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.sdk.samples' range='[3.3.0,3.3.0]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.sdk.samples.feature.jar' range='[3.3.0,3.3.0]'>
+          <filter>
+            (org.eclipse.update.install.features=true)
+          </filter>
+        </required>
+      </requires>
+      <touchpoint id='null' version='0.0.0'/>
+      <licenses size='1'>
+        <license>
+          %license
+        </license>
+      </licenses>
+      <copyright>
+        %copyright
+      </copyright>
+    </unit>
+    <unit id='org.eclipse.sdk.samples.feature.jar' version='4.3.0'>
+      <properties size='7'>
+        <property name='org.eclipse.equinox.p2.name' value='%featureName'/>
+        <property name='org.eclipse.equinox.p2.description' value='%description'/>
+        <property name='org.eclipse.equinox.p2.provider' value='Eclipse.org'/>
+        <property name='df_LT.featureName' value='Eclipse SDK Samples'/>
+        <property name='df_LT.description' value='Eclipse SDK code samples designed to work with Eclipse SDK 4.3 release.'/>
+        <property name='df_LT.copyright' value='Copyright 2004, 2013 IBM and others.'/>
+        <property name='df_LT.license' value='ECLIPSE FOUNDATION SOFTWARE USER AGREEMENT&#xA;January 28, 2004&#xA;&#xA;Usage Of Content&#xA;&#xA;THE ECLIPSE FOUNDATION MAKES AVAILABLE SOFTWARE, DOCUMENTATION, INFORMATION AND/OR&#xA;OTHER MATERIALS FOR OPEN SOURCE PROJECTS (COLLECTIVELY &quot;CONTENT&quot;).&#xA;USE OF THE CONTENT IS GOVERNED BY THE TERMS AND CONDITIONS OF THIS&#xA;AGREEMENT AND/OR THE TERMS AND CONDITIONS OF LICENSE AGREEMENTS OR&#xA;NOTICES INDICATED OR REFERENCED BELOW. BY USING THE CONTENT, YOU&#xA;AGREE THAT YOUR USE OF THE CONTENT IS GOVERNED BY THIS AGREEMENT&#xA;AND/OR THE TERMS AND CONDITIONS OF ANY APPLICABLE LICENSE AGREEMENTS&#xA;OR NOTICES INDICATED OR REFERENCED BELOW. IF YOU DO NOT AGREE TO THE&#xA;TERMS AND CONDITIONS OF THIS AGREEMENT AND THE TERMS AND CONDITIONS&#xA;OF ANY APPLICABLE LICENSE AGREEMENTS OR NOTICES INDICATED OR REFERENCED&#xA;BELOW, THEN YOU MAY NOT USE THE CONTENT.&#xA;&#xA;Applicable Licenses&#xA;&#xA;Unless otherwise indicated, all Content made available by the Eclipse Foundation&#xA;is provided to you under the terms and conditions of the Eclipse Public&#xA;License Version 1.0 (&quot;EPL&quot;). A copy of the EPL is provided with this&#xA;Content and is also available at http://www.eclipse.org/legal/epl-v10.html.&#xA;For purposes of the EPL, &quot;Program&quot; will mean the Content.&#xA;&#xA;Content includes, but is not limited to, source code, object code,&#xA;documentation and other files maintained in the Eclipse.org CVS&#xA;repository (&quot;Repository&quot;) in CVS modules (&quot;Modules&quot;) and made available&#xA;as downloadable archives (&quot;Downloads&quot;).&#xA;&#xA;Content may be apportioned into plug-ins (&quot;Plug-ins&quot;), plug-in fragments&#xA;(&quot;Fragments&quot;), and features (&quot;Features&quot;). A Feature is a bundle of one or&#xA;more Plug-ins and/or Fragments and associated material. Files named&#xA;&quot;feature.xml&quot; may contain a list of the names and version numbers of the&#xA;Plug-ins and/or Fragments associated with a Feature. Plug-ins and Fragments&#xA;are located in directories named &quot;plugins&quot; and Features are located in&#xA;directories named &quot;features&quot;.&#xA;&#xA;Features may also include other Features (&quot;Included Features&quot;). Files named&#xA;&quot;feature.xml&quot; may contain a list of the names and version numbers of&#xA;Included Features.&#xA;&#xA;The terms and conditions governing Plug-ins and Fragments should be&#xA;contained in files named &quot;about.html&quot; (&quot;Abouts&quot;). The terms and&#xA;conditions governing Features and Included Features should be contained&#xA;in files named &quot;license.html&quot; (&quot;Feature Licenses&quot;). Abouts and Feature&#xA;Licenses may be located in any directory of a Download or Module&#xA;including, but not limited to the following locations:&#xA;&#xA;- The top-level (root) directory&#xA;- Plug-in and Fragment directories&#xA;- Subdirectories of the directory named &quot;src&quot; of certain Plug-ins&#xA;- Feature directories&#xA;&#xA;Note: if a Feature made available by the Eclipse Foundation is installed using the&#xA;Eclipse Update Manager, you must agree to a license (&quot;Feature Update&#xA;License&quot;) during the installation process. If the Feature contains&#xA;Included Features, the Feature Update License should either provide you&#xA;with the terms and conditions governing the Included Features or inform&#xA;you where you can locate them. Feature Update Licenses may be found in&#xA;the &quot;license&quot; property of files named &quot;feature.properties&quot;. Such Abouts,&#xA;Feature Licenses and Feature Update Licenses contain the terms and&#xA;conditions (or references to such terms and conditions) that govern your&#xA;use of the associated Content in that directory.&#xA;&#xA;THE ABOUTS, FEATURE LICENSES AND FEATURE UPDATE LICENSES MAY REFER&#xA;TO THE CPL OR OTHER LICENSE AGREEMENTS, NOTICES OR TERMS AND CONDITIONS.&#xA;SOME OF THESE OTHER LICENSE AGREEMENTS MAY INCLUDE (BUT ARE NOT LIMITED TO):&#xA;&#xA;- Common Public License Version 1.0 (available at http://www.eclipse.org/legal/cpl-v10.html)&#xA;- Apache Software License 1.1 (available at http://www.apache.org/licenses/LICENSE)&#xA;- Apache Software License 2.0 (available at http://www.apache.org/licenses/LICENSE-2.0)&#xA;- IBM Public License 1.0 (available at http://oss.software.ibm.com/developerworks/opensource/license10.html)&#xA;- Metro Link Public License 1.00 (available at http://www.opengroup.org/openmotif/supporters/metrolink/license.html)&#xA;- Mozilla Public License Version 1.1 (available at http://www.mozilla.org/MPL/MPL-1.1.html)&#xA;&#xA;IT IS YOUR OBLIGATION TO READ AND ACCEPT ALL SUCH TERMS AND CONDITIONS PRIOR&#xA;TO USE OF THE CONTENT. If no About, Feature License or Feature Update License&#xA;is provided, please contact the Eclipse Foundation to determine what terms and conditions&#xA;govern that particular Content.&#xA;&#xA;Cryptography&#xA;&#xA;Content may contain encryption software. The country in which you are&#xA;currently may have restrictions on the import, possession, and use,&#xA;and/or re-export to another country, of encryption software. BEFORE&#xA;using any encryption software, please check the country&apos;s laws,&#xA;regulations and policies concerning the import, possession, or use,&#xA;and re-export of encryption software, to see if this is permitted.&#xA;'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.sdk.samples.feature.jar' version='4.3.0'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='feature' version='1.0.0'/>
+        <provided namespace='org.eclipse.update.feature' name='org.eclipse.sdk.samples' version='4.3.0'/>
+      </provides>
+      <filter>
+        (org.eclipse.update.install.features=true)
+      </filter>
+      <artifacts size='1'>
+        <artifact classifier='org.eclipse.update.feature' id='org.eclipse.sdk.samples' version='4.3.0'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='zipped'>
+            true
+          </instruction>
+        </instructions>
+      </touchpointData>
+      <licenses size='1'>
+        <license>
+          %license
+        </license>
+      </licenses>
+      <copyright>
+        %copyright
+      </copyright>
+    </unit>
+    <unit id='org.eclipse.sdk.samples' version='4.3.0' singleton='false'>
+      <update id='org.eclipse.sdk.samples' range='[0.0.0,4.3.0)' severity='0'/>
+      <properties size='1'>
+        <property name='org.eclipse.equinox.p2.partial.iu' value='true'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.sdk.samples' version='4.3.0'/>
+        <provided namespace='osgi.bundle' name='org.eclipse.sdk.samples' version='4.3.0'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.eclipse.sdk.samples' version='4.3.0'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='2'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.eclipse.sdk.samples&#xA;Bundle-Version: 4.3.0&#xA;
+          </instruction>
+          <instruction key='zipped'>
+            true
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.eclipse.sdk.samples.feature.jar' version='3.2.0'>
+      <properties size='7'>
+        <property name='org.eclipse.equinox.p2.name' value='%featureName'/>
+        <property name='org.eclipse.equinox.p2.description' value='%description'/>
+        <property name='org.eclipse.equinox.p2.provider' value='Eclipse.org'/>
+        <property name='df_LT.featureName' value='Eclipse SDK Samples'/>
+        <property name='df_LT.description' value='Eclipse SDK code samples designed to work with Eclipse SDK 3.1 release.'/>
+        <property name='df_LT.copyright' value='Copyright 2004, 2005 IBM and others.'/>
+        <property name='df_LT.license' value='ECLIPSE FOUNDATION SOFTWARE USER AGREEMENT&#xA;January 28, 2004&#xA;&#xA;Usage Of Content&#xA;&#xA;THE ECLIPSE FOUNDATION MAKES AVAILABLE SOFTWARE, DOCUMENTATION, INFORMATION AND/OR&#xA;OTHER MATERIALS FOR OPEN SOURCE PROJECTS (COLLECTIVELY &quot;CONTENT&quot;).&#xA;USE OF THE CONTENT IS GOVERNED BY THE TERMS AND CONDITIONS OF THIS&#xA;AGREEMENT AND/OR THE TERMS AND CONDITIONS OF LICENSE AGREEMENTS OR&#xA;NOTICES INDICATED OR REFERENCED BELOW. BY USING THE CONTENT, YOU&#xA;AGREE THAT YOUR USE OF THE CONTENT IS GOVERNED BY THIS AGREEMENT&#xA;AND/OR THE TERMS AND CONDITIONS OF ANY APPLICABLE LICENSE AGREEMENTS&#xA;OR NOTICES INDICATED OR REFERENCED BELOW. IF YOU DO NOT AGREE TO THE&#xA;TERMS AND CONDITIONS OF THIS AGREEMENT AND THE TERMS AND CONDITIONS&#xA;OF ANY APPLICABLE LICENSE AGREEMENTS OR NOTICES INDICATED OR REFERENCED&#xA;BELOW, THEN YOU MAY NOT USE THE CONTENT.&#xA;&#xA;Applicable Licenses&#xA;&#xA;Unless otherwise indicated, all Content made available by the Eclipse Foundation&#xA;is provided to you under the terms and conditions of the Eclipse Public&#xA;License Version 1.0 (&quot;EPL&quot;). A copy of the EPL is provided with this&#xA;Content and is also available at http://www.eclipse.org/legal/epl-v10.html.&#xA;For purposes of the EPL, &quot;Program&quot; will mean the Content.&#xA;&#xA;Content includes, but is not limited to, source code, object code,&#xA;documentation and other files maintained in the Eclipse.org CVS&#xA;repository (&quot;Repository&quot;) in CVS modules (&quot;Modules&quot;) and made available&#xA;as downloadable archives (&quot;Downloads&quot;).&#xA;&#xA;Content may be apportioned into plug-ins (&quot;Plug-ins&quot;), plug-in fragments&#xA;(&quot;Fragments&quot;), and features (&quot;Features&quot;). A Feature is a bundle of one or&#xA;more Plug-ins and/or Fragments and associated material. Files named&#xA;&quot;feature.xml&quot; may contain a list of the names and version numbers of the&#xA;Plug-ins and/or Fragments associated with a Feature. Plug-ins and Fragments&#xA;are located in directories named &quot;plugins&quot; and Features are located in&#xA;directories named &quot;features&quot;.&#xA;&#xA;Features may also include other Features (&quot;Included Features&quot;). Files named&#xA;&quot;feature.xml&quot; may contain a list of the names and version numbers of&#xA;Included Features.&#xA;&#xA;The terms and conditions governing Plug-ins and Fragments should be&#xA;contained in files named &quot;about.html&quot; (&quot;Abouts&quot;). The terms and&#xA;conditions governing Features and Included Features should be contained&#xA;in files named &quot;license.html&quot; (&quot;Feature Licenses&quot;). Abouts and Feature&#xA;Licenses may be located in any directory of a Download or Module&#xA;including, but not limited to the following locations:&#xA;&#xA;- The top-level (root) directory&#xA;- Plug-in and Fragment directories&#xA;- Subdirectories of the directory named &quot;src&quot; of certain Plug-ins&#xA;- Feature directories&#xA;&#xA;Note: if a Feature made available by the Eclipse Foundation is installed using the&#xA;Eclipse Update Manager, you must agree to a license (&quot;Feature Update&#xA;License&quot;) during the installation process. If the Feature contains&#xA;Included Features, the Feature Update License should either provide you&#xA;with the terms and conditions governing the Included Features or inform&#xA;you where you can locate them. Feature Update Licenses may be found in&#xA;the &quot;license&quot; property of files named &quot;feature.properties&quot;. Such Abouts,&#xA;Feature Licenses and Feature Update Licenses contain the terms and&#xA;conditions (or references to such terms and conditions) that govern your&#xA;use of the associated Content in that directory.&#xA;&#xA;THE ABOUTS, FEATURE LICENSES AND FEATURE UPDATE LICENSES MAY REFER&#xA;TO THE CPL OR OTHER LICENSE AGREEMENTS, NOTICES OR TERMS AND CONDITIONS.&#xA;SOME OF THESE OTHER LICENSE AGREEMENTS MAY INCLUDE (BUT ARE NOT LIMITED TO):&#xA;&#xA;- Common Public License Version 1.0 (available at http://www.eclipse.org/legal/cpl-v10.html)&#xA;- Apache Software License 1.1 (available at http://www.apache.org/licenses/LICENSE)&#xA;- Apache Software License 2.0 (available at http://www.apache.org/licenses/LICENSE-2.0)&#xA;- IBM Public License 1.0 (available at http://oss.software.ibm.com/developerworks/opensource/license10.html)&#xA;- Metro Link Public License 1.00 (available at http://www.opengroup.org/openmotif/supporters/metrolink/license.html)&#xA;- Mozilla Public License Version 1.1 (available at http://www.mozilla.org/MPL/MPL-1.1.html)&#xA;&#xA;IT IS YOUR OBLIGATION TO READ AND ACCEPT ALL SUCH TERMS AND CONDITIONS PRIOR&#xA;TO USE OF THE CONTENT. If no About, Feature License or Feature Update License&#xA;is provided, please contact the Eclipse Foundation to determine what terms and conditions&#xA;govern that particular Content.&#xA;&#xA;Cryptography&#xA;&#xA;Content may contain encryption software. The country in which you are&#xA;currently may have restrictions on the import, possession, and use,&#xA;and/or re-export to another country, of encryption software. BEFORE&#xA;using any encryption software, please check the country&apos;s laws,&#xA;regulations and policies concerning the import, possession, or use,&#xA;and re-export of encryption software, to see if this is permitted.&#xA;'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.sdk.samples.feature.jar' version='3.2.0'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='feature' version='1.0.0'/>
+        <provided namespace='org.eclipse.update.feature' name='org.eclipse.sdk.samples' version='3.2.0'/>
+      </provides>
+      <filter>
+        (org.eclipse.update.install.features=true)
+      </filter>
+      <artifacts size='1'>
+        <artifact classifier='org.eclipse.update.feature' id='org.eclipse.sdk.samples' version='3.2.0'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='zipped'>
+            true
+          </instruction>
+        </instructions>
+      </touchpointData>
+      <licenses size='1'>
+        <license>
+          %license
+        </license>
+      </licenses>
+      <copyright>
+        %copyright
+      </copyright>
+    </unit>
+    <unit id='org.eclipse.sdk.samples' version='3.2.0' singleton='false'>
+      <update id='org.eclipse.sdk.samples' range='[0.0.0,3.2.0)' severity='0'/>
+      <properties size='1'>
+        <property name='org.eclipse.equinox.p2.partial.iu' value='true'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.sdk.samples' version='3.2.0'/>
+        <provided namespace='osgi.bundle' name='org.eclipse.sdk.samples' version='3.2.0'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.eclipse.sdk.samples' version='3.2.0'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='2'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.eclipse.sdk.samples&#xA;Bundle-Version: 3.2.0&#xA;
+          </instruction>
+          <instruction key='zipped'>
+            true
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='http://www.eclipse.org/pde/samples/site.xml.samples' version='1.0.0.7V7G-cLT3Lh'>
+      <properties size='3'>
+        <property name='org.eclipse.equinox.p2.name' value='Eclipse SDK Samples'/>
+        <property name='org.eclipse.equinox.p2.description' value='Samples for the Eclipse SDK, demonstrating the use of editors, views, etc.'/>
+        <property name='org.eclipse.equinox.p2.type.category' value='true'/>
+      </properties>
+      <provides size='1'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='http://www.eclipse.org/pde/samples/site.xml.samples' version='1.0.0.7V7G-cLT3Lh'/>
+      </provides>
+      <requires size='5'>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.sdk.samples.feature.group' range='[3.1.0,3.1.0]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.sdk.samples.feature.group' range='[3.0.0,3.0.0]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.sdk.samples.feature.group' range='[4.3.0,4.3.0]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.sdk.samples.feature.group' range='[3.3.0,3.3.0]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.sdk.samples.feature.group' range='[3.2.0,3.2.0]'/>
+      </requires>
+      <touchpoint id='null' version='0.0.0'/>
+    </unit>
+    <unit id='org.eclipse.sdk.samples' version='3.0.0' singleton='false'>
+      <update id='org.eclipse.sdk.samples' range='[0.0.0,3.0.0)' severity='0'/>
+      <properties size='1'>
+        <property name='org.eclipse.equinox.p2.partial.iu' value='true'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.sdk.samples' version='3.0.0'/>
+        <provided namespace='osgi.bundle' name='org.eclipse.sdk.samples' version='3.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.eclipse.sdk.samples' version='3.0.0'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='2'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.eclipse.sdk.samples&#xA;Bundle-Version: 3.0.0&#xA;
+          </instruction>
+          <instruction key='zipped'>
+            true
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.eclipse.sdk.samples.feature.group' version='3.1.0' singleton='false'>
+      <update id='org.eclipse.sdk.samples.feature.group' range='[0.0.0,3.1.0)' severity='0'/>
+      <properties size='8'>
+        <property name='org.eclipse.equinox.p2.name' value='%featureName'/>
+        <property name='org.eclipse.equinox.p2.description' value='%description'/>
+        <property name='org.eclipse.equinox.p2.provider' value='Eclipse.org'/>
+        <property name='org.eclipse.equinox.p2.type.group' value='true'/>
+        <property name='df_LT.featureName' value='Eclipse SDK Samples'/>
+        <property name='df_LT.description' value='Eclipse SDK code samples designed to work with Eclipse SDK 3.1 release.'/>
+        <property name='df_LT.copyright' value='Copyright 2004, 2005 IBM and others.'/>
+        <property name='df_LT.license' value='ECLIPSE FOUNDATION SOFTWARE USER AGREEMENT&#xA;January 28, 2004&#xA;&#xA;Usage Of Content&#xA;&#xA;THE ECLIPSE FOUNDATION MAKES AVAILABLE SOFTWARE, DOCUMENTATION, INFORMATION AND/OR&#xA;OTHER MATERIALS FOR OPEN SOURCE PROJECTS (COLLECTIVELY &quot;CONTENT&quot;).&#xA;USE OF THE CONTENT IS GOVERNED BY THE TERMS AND CONDITIONS OF THIS&#xA;AGREEMENT AND/OR THE TERMS AND CONDITIONS OF LICENSE AGREEMENTS OR&#xA;NOTICES INDICATED OR REFERENCED BELOW. BY USING THE CONTENT, YOU&#xA;AGREE THAT YOUR USE OF THE CONTENT IS GOVERNED BY THIS AGREEMENT&#xA;AND/OR THE TERMS AND CONDITIONS OF ANY APPLICABLE LICENSE AGREEMENTS&#xA;OR NOTICES INDICATED OR REFERENCED BELOW. IF YOU DO NOT AGREE TO THE&#xA;TERMS AND CONDITIONS OF THIS AGREEMENT AND THE TERMS AND CONDITIONS&#xA;OF ANY APPLICABLE LICENSE AGREEMENTS OR NOTICES INDICATED OR REFERENCED&#xA;BELOW, THEN YOU MAY NOT USE THE CONTENT.&#xA;&#xA;Applicable Licenses&#xA;&#xA;Unless otherwise indicated, all Content made available by the Eclipse Foundation&#xA;is provided to you under the terms and conditions of the Eclipse Public&#xA;License Version 1.0 (&quot;EPL&quot;). A copy of the EPL is provided with this&#xA;Content and is also available at http://www.eclipse.org/legal/epl-v10.html.&#xA;For purposes of the EPL, &quot;Program&quot; will mean the Content.&#xA;&#xA;Content includes, but is not limited to, source code, object code,&#xA;documentation and other files maintained in the Eclipse.org CVS&#xA;repository (&quot;Repository&quot;) in CVS modules (&quot;Modules&quot;) and made available&#xA;as downloadable archives (&quot;Downloads&quot;).&#xA;&#xA;Content may be apportioned into plug-ins (&quot;Plug-ins&quot;), plug-in fragments&#xA;(&quot;Fragments&quot;), and features (&quot;Features&quot;). A Feature is a bundle of one or&#xA;more Plug-ins and/or Fragments and associated material. Files named&#xA;&quot;feature.xml&quot; may contain a list of the names and version numbers of the&#xA;Plug-ins and/or Fragments associated with a Feature. Plug-ins and Fragments&#xA;are located in directories named &quot;plugins&quot; and Features are located in&#xA;directories named &quot;features&quot;.&#xA;&#xA;Features may also include other Features (&quot;Included Features&quot;). Files named&#xA;&quot;feature.xml&quot; may contain a list of the names and version numbers of&#xA;Included Features.&#xA;&#xA;The terms and conditions governing Plug-ins and Fragments should be&#xA;contained in files named &quot;about.html&quot; (&quot;Abouts&quot;). The terms and&#xA;conditions governing Features and Included Features should be contained&#xA;in files named &quot;license.html&quot; (&quot;Feature Licenses&quot;). Abouts and Feature&#xA;Licenses may be located in any directory of a Download or Module&#xA;including, but not limited to the following locations:&#xA;&#xA;- The top-level (root) directory&#xA;- Plug-in and Fragment directories&#xA;- Subdirectories of the directory named &quot;src&quot; of certain Plug-ins&#xA;- Feature directories&#xA;&#xA;Note: if a Feature made available by the Eclipse Foundation is installed using the&#xA;Eclipse Update Manager, you must agree to a license (&quot;Feature Update&#xA;License&quot;) during the installation process. If the Feature contains&#xA;Included Features, the Feature Update License should either provide you&#xA;with the terms and conditions governing the Included Features or inform&#xA;you where you can locate them. Feature Update Licenses may be found in&#xA;the &quot;license&quot; property of files named &quot;feature.properties&quot;. Such Abouts,&#xA;Feature Licenses and Feature Update Licenses contain the terms and&#xA;conditions (or references to such terms and conditions) that govern your&#xA;use of the associated Content in that directory.&#xA;&#xA;THE ABOUTS, FEATURE LICENSES AND FEATURE UPDATE LICENSES MAY REFER&#xA;TO THE CPL OR OTHER LICENSE AGREEMENTS, NOTICES OR TERMS AND CONDITIONS.&#xA;SOME OF THESE OTHER LICENSE AGREEMENTS MAY INCLUDE (BUT ARE NOT LIMITED TO):&#xA;&#xA;- Common Public License Version 1.0 (available at http://www.eclipse.org/legal/cpl-v10.html)&#xA;- Apache Software License 1.1 (available at http://www.apache.org/licenses/LICENSE)&#xA;- Apache Software License 2.0 (available at http://www.apache.org/licenses/LICENSE-2.0)&#xA;- IBM Public License 1.0 (available at http://oss.software.ibm.com/developerworks/opensource/license10.html)&#xA;- Metro Link Public License 1.00 (available at http://www.opengroup.org/openmotif/supporters/metrolink/license.html)&#xA;- Mozilla Public License Version 1.1 (available at http://www.mozilla.org/MPL/MPL-1.1.html)&#xA;&#xA;IT IS YOUR OBLIGATION TO READ AND ACCEPT ALL SUCH TERMS AND CONDITIONS PRIOR&#xA;TO USE OF THE CONTENT. If no About, Feature License or Feature Update License&#xA;is provided, please contact the Eclipse Foundation to determine what terms and conditions&#xA;govern that particular Content.&#xA;&#xA;Cryptography&#xA;&#xA;Content may contain encryption software. The country in which you are&#xA;currently may have restrictions on the import, possession, and use,&#xA;and/or re-export to another country, of encryption software. BEFORE&#xA;using any encryption software, please check the country&apos;s laws,&#xA;regulations and policies concerning the import, possession, or use,&#xA;and re-export of encryption software, to see if this is permitted.&#xA;'/>
+      </properties>
+      <provides size='2'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.sdk.samples.feature.group' version='3.1.0'/>
+        <provided namespace='org.eclipse.equinox.p2.localization' name='df_LT' version='1.0.0'/>
+      </provides>
+      <requires size='3'>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.sdk.feature.group' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.sdk.samples' range='[3.1.0,3.1.0]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.sdk.samples.feature.jar' range='[3.1.0,3.1.0]'>
+          <filter>
+            (org.eclipse.update.install.features=true)
+          </filter>
+        </required>
+      </requires>
+      <touchpoint id='null' version='0.0.0'/>
+      <licenses size='1'>
+        <license>
+          %license
+        </license>
+      </licenses>
+      <copyright>
+        %copyright
+      </copyright>
+    </unit>
+    <unit id='org.eclipse.sdk.samples.feature.group' version='4.3.0' singleton='false'>
+      <update id='org.eclipse.sdk.samples.feature.group' range='[0.0.0,4.3.0)' severity='0'/>
+      <properties size='8'>
+        <property name='org.eclipse.equinox.p2.name' value='%featureName'/>
+        <property name='org.eclipse.equinox.p2.description' value='%description'/>
+        <property name='org.eclipse.equinox.p2.provider' value='Eclipse.org'/>
+        <property name='org.eclipse.equinox.p2.type.group' value='true'/>
+        <property name='df_LT.featureName' value='Eclipse SDK Samples'/>
+        <property name='df_LT.description' value='Eclipse SDK code samples designed to work with Eclipse SDK 4.3 release.'/>
+        <property name='df_LT.copyright' value='Copyright 2004, 2013 IBM and others.'/>
+        <property name='df_LT.license' value='ECLIPSE FOUNDATION SOFTWARE USER AGREEMENT&#xA;January 28, 2004&#xA;&#xA;Usage Of Content&#xA;&#xA;THE ECLIPSE FOUNDATION MAKES AVAILABLE SOFTWARE, DOCUMENTATION, INFORMATION AND/OR&#xA;OTHER MATERIALS FOR OPEN SOURCE PROJECTS (COLLECTIVELY &quot;CONTENT&quot;).&#xA;USE OF THE CONTENT IS GOVERNED BY THE TERMS AND CONDITIONS OF THIS&#xA;AGREEMENT AND/OR THE TERMS AND CONDITIONS OF LICENSE AGREEMENTS OR&#xA;NOTICES INDICATED OR REFERENCED BELOW. BY USING THE CONTENT, YOU&#xA;AGREE THAT YOUR USE OF THE CONTENT IS GOVERNED BY THIS AGREEMENT&#xA;AND/OR THE TERMS AND CONDITIONS OF ANY APPLICABLE LICENSE AGREEMENTS&#xA;OR NOTICES INDICATED OR REFERENCED BELOW. IF YOU DO NOT AGREE TO THE&#xA;TERMS AND CONDITIONS OF THIS AGREEMENT AND THE TERMS AND CONDITIONS&#xA;OF ANY APPLICABLE LICENSE AGREEMENTS OR NOTICES INDICATED OR REFERENCED&#xA;BELOW, THEN YOU MAY NOT USE THE CONTENT.&#xA;&#xA;Applicable Licenses&#xA;&#xA;Unless otherwise indicated, all Content made available by the Eclipse Foundation&#xA;is provided to you under the terms and conditions of the Eclipse Public&#xA;License Version 1.0 (&quot;EPL&quot;). A copy of the EPL is provided with this&#xA;Content and is also available at http://www.eclipse.org/legal/epl-v10.html.&#xA;For purposes of the EPL, &quot;Program&quot; will mean the Content.&#xA;&#xA;Content includes, but is not limited to, source code, object code,&#xA;documentation and other files maintained in the Eclipse.org CVS&#xA;repository (&quot;Repository&quot;) in CVS modules (&quot;Modules&quot;) and made available&#xA;as downloadable archives (&quot;Downloads&quot;).&#xA;&#xA;Content may be apportioned into plug-ins (&quot;Plug-ins&quot;), plug-in fragments&#xA;(&quot;Fragments&quot;), and features (&quot;Features&quot;). A Feature is a bundle of one or&#xA;more Plug-ins and/or Fragments and associated material. Files named&#xA;&quot;feature.xml&quot; may contain a list of the names and version numbers of the&#xA;Plug-ins and/or Fragments associated with a Feature. Plug-ins and Fragments&#xA;are located in directories named &quot;plugins&quot; and Features are located in&#xA;directories named &quot;features&quot;.&#xA;&#xA;Features may also include other Features (&quot;Included Features&quot;). Files named&#xA;&quot;feature.xml&quot; may contain a list of the names and version numbers of&#xA;Included Features.&#xA;&#xA;The terms and conditions governing Plug-ins and Fragments should be&#xA;contained in files named &quot;about.html&quot; (&quot;Abouts&quot;). The terms and&#xA;conditions governing Features and Included Features should be contained&#xA;in files named &quot;license.html&quot; (&quot;Feature Licenses&quot;). Abouts and Feature&#xA;Licenses may be located in any directory of a Download or Module&#xA;including, but not limited to the following locations:&#xA;&#xA;- The top-level (root) directory&#xA;- Plug-in and Fragment directories&#xA;- Subdirectories of the directory named &quot;src&quot; of certain Plug-ins&#xA;- Feature directories&#xA;&#xA;Note: if a Feature made available by the Eclipse Foundation is installed using the&#xA;Eclipse Update Manager, you must agree to a license (&quot;Feature Update&#xA;License&quot;) during the installation process. If the Feature contains&#xA;Included Features, the Feature Update License should either provide you&#xA;with the terms and conditions governing the Included Features or inform&#xA;you where you can locate them. Feature Update Licenses may be found in&#xA;the &quot;license&quot; property of files named &quot;feature.properties&quot;. Such Abouts,&#xA;Feature Licenses and Feature Update Licenses contain the terms and&#xA;conditions (or references to such terms and conditions) that govern your&#xA;use of the associated Content in that directory.&#xA;&#xA;THE ABOUTS, FEATURE LICENSES AND FEATURE UPDATE LICENSES MAY REFER&#xA;TO THE CPL OR OTHER LICENSE AGREEMENTS, NOTICES OR TERMS AND CONDITIONS.&#xA;SOME OF THESE OTHER LICENSE AGREEMENTS MAY INCLUDE (BUT ARE NOT LIMITED TO):&#xA;&#xA;- Common Public License Version 1.0 (available at http://www.eclipse.org/legal/cpl-v10.html)&#xA;- Apache Software License 1.1 (available at http://www.apache.org/licenses/LICENSE)&#xA;- Apache Software License 2.0 (available at http://www.apache.org/licenses/LICENSE-2.0)&#xA;- IBM Public License 1.0 (available at http://oss.software.ibm.com/developerworks/opensource/license10.html)&#xA;- Metro Link Public License 1.00 (available at http://www.opengroup.org/openmotif/supporters/metrolink/license.html)&#xA;- Mozilla Public License Version 1.1 (available at http://www.mozilla.org/MPL/MPL-1.1.html)&#xA;&#xA;IT IS YOUR OBLIGATION TO READ AND ACCEPT ALL SUCH TERMS AND CONDITIONS PRIOR&#xA;TO USE OF THE CONTENT. If no About, Feature License or Feature Update License&#xA;is provided, please contact the Eclipse Foundation to determine what terms and conditions&#xA;govern that particular Content.&#xA;&#xA;Cryptography&#xA;&#xA;Content may contain encryption software. The country in which you are&#xA;currently may have restrictions on the import, possession, and use,&#xA;and/or re-export to another country, of encryption software. BEFORE&#xA;using any encryption software, please check the country&apos;s laws,&#xA;regulations and policies concerning the import, possession, or use,&#xA;and re-export of encryption software, to see if this is permitted.&#xA;'/>
+      </properties>
+      <provides size='2'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.sdk.samples.feature.group' version='4.3.0'/>
+        <provided namespace='org.eclipse.equinox.p2.localization' name='df_LT' version='1.0.0'/>
+      </provides>
+      <requires size='5'>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.platform.feature.group' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.jdt.feature.group' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.pde.feature.group' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.sdk.samples' range='[4.3.0,4.3.0]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.sdk.samples.feature.jar' range='[4.3.0,4.3.0]'>
+          <filter>
+            (org.eclipse.update.install.features=true)
+          </filter>
+        </required>
+      </requires>
+      <touchpoint id='null' version='0.0.0'/>
+      <licenses size='1'>
+        <license>
+          %license
+        </license>
+      </licenses>
+      <copyright>
+        %copyright
+      </copyright>
+    </unit>
+    <unit id='org.eclipse.sdk.samples.feature.group' version='3.2.0' singleton='false'>
+      <update id='org.eclipse.sdk.samples.feature.group' range='[0.0.0,3.2.0)' severity='0'/>
+      <properties size='8'>
+        <property name='org.eclipse.equinox.p2.name' value='%featureName'/>
+        <property name='org.eclipse.equinox.p2.description' value='%description'/>
+        <property name='org.eclipse.equinox.p2.provider' value='Eclipse.org'/>
+        <property name='org.eclipse.equinox.p2.type.group' value='true'/>
+        <property name='df_LT.featureName' value='Eclipse SDK Samples'/>
+        <property name='df_LT.description' value='Eclipse SDK code samples designed to work with Eclipse SDK 3.1 release.'/>
+        <property name='df_LT.copyright' value='Copyright 2004, 2005 IBM and others.'/>
+        <property name='df_LT.license' value='ECLIPSE FOUNDATION SOFTWARE USER AGREEMENT&#xA;January 28, 2004&#xA;&#xA;Usage Of Content&#xA;&#xA;THE ECLIPSE FOUNDATION MAKES AVAILABLE SOFTWARE, DOCUMENTATION, INFORMATION AND/OR&#xA;OTHER MATERIALS FOR OPEN SOURCE PROJECTS (COLLECTIVELY &quot;CONTENT&quot;).&#xA;USE OF THE CONTENT IS GOVERNED BY THE TERMS AND CONDITIONS OF THIS&#xA;AGREEMENT AND/OR THE TERMS AND CONDITIONS OF LICENSE AGREEMENTS OR&#xA;NOTICES INDICATED OR REFERENCED BELOW. BY USING THE CONTENT, YOU&#xA;AGREE THAT YOUR USE OF THE CONTENT IS GOVERNED BY THIS AGREEMENT&#xA;AND/OR THE TERMS AND CONDITIONS OF ANY APPLICABLE LICENSE AGREEMENTS&#xA;OR NOTICES INDICATED OR REFERENCED BELOW. IF YOU DO NOT AGREE TO THE&#xA;TERMS AND CONDITIONS OF THIS AGREEMENT AND THE TERMS AND CONDITIONS&#xA;OF ANY APPLICABLE LICENSE AGREEMENTS OR NOTICES INDICATED OR REFERENCED&#xA;BELOW, THEN YOU MAY NOT USE THE CONTENT.&#xA;&#xA;Applicable Licenses&#xA;&#xA;Unless otherwise indicated, all Content made available by the Eclipse Foundation&#xA;is provided to you under the terms and conditions of the Eclipse Public&#xA;License Version 1.0 (&quot;EPL&quot;). A copy of the EPL is provided with this&#xA;Content and is also available at http://www.eclipse.org/legal/epl-v10.html.&#xA;For purposes of the EPL, &quot;Program&quot; will mean the Content.&#xA;&#xA;Content includes, but is not limited to, source code, object code,&#xA;documentation and other files maintained in the Eclipse.org CVS&#xA;repository (&quot;Repository&quot;) in CVS modules (&quot;Modules&quot;) and made available&#xA;as downloadable archives (&quot;Downloads&quot;).&#xA;&#xA;Content may be apportioned into plug-ins (&quot;Plug-ins&quot;), plug-in fragments&#xA;(&quot;Fragments&quot;), and features (&quot;Features&quot;). A Feature is a bundle of one or&#xA;more Plug-ins and/or Fragments and associated material. Files named&#xA;&quot;feature.xml&quot; may contain a list of the names and version numbers of the&#xA;Plug-ins and/or Fragments associated with a Feature. Plug-ins and Fragments&#xA;are located in directories named &quot;plugins&quot; and Features are located in&#xA;directories named &quot;features&quot;.&#xA;&#xA;Features may also include other Features (&quot;Included Features&quot;). Files named&#xA;&quot;feature.xml&quot; may contain a list of the names and version numbers of&#xA;Included Features.&#xA;&#xA;The terms and conditions governing Plug-ins and Fragments should be&#xA;contained in files named &quot;about.html&quot; (&quot;Abouts&quot;). The terms and&#xA;conditions governing Features and Included Features should be contained&#xA;in files named &quot;license.html&quot; (&quot;Feature Licenses&quot;). Abouts and Feature&#xA;Licenses may be located in any directory of a Download or Module&#xA;including, but not limited to the following locations:&#xA;&#xA;- The top-level (root) directory&#xA;- Plug-in and Fragment directories&#xA;- Subdirectories of the directory named &quot;src&quot; of certain Plug-ins&#xA;- Feature directories&#xA;&#xA;Note: if a Feature made available by the Eclipse Foundation is installed using the&#xA;Eclipse Update Manager, you must agree to a license (&quot;Feature Update&#xA;License&quot;) during the installation process. If the Feature contains&#xA;Included Features, the Feature Update License should either provide you&#xA;with the terms and conditions governing the Included Features or inform&#xA;you where you can locate them. Feature Update Licenses may be found in&#xA;the &quot;license&quot; property of files named &quot;feature.properties&quot;. Such Abouts,&#xA;Feature Licenses and Feature Update Licenses contain the terms and&#xA;conditions (or references to such terms and conditions) that govern your&#xA;use of the associated Content in that directory.&#xA;&#xA;THE ABOUTS, FEATURE LICENSES AND FEATURE UPDATE LICENSES MAY REFER&#xA;TO THE CPL OR OTHER LICENSE AGREEMENTS, NOTICES OR TERMS AND CONDITIONS.&#xA;SOME OF THESE OTHER LICENSE AGREEMENTS MAY INCLUDE (BUT ARE NOT LIMITED TO):&#xA;&#xA;- Common Public License Version 1.0 (available at http://www.eclipse.org/legal/cpl-v10.html)&#xA;- Apache Software License 1.1 (available at http://www.apache.org/licenses/LICENSE)&#xA;- Apache Software License 2.0 (available at http://www.apache.org/licenses/LICENSE-2.0)&#xA;- IBM Public License 1.0 (available at http://oss.software.ibm.com/developerworks/opensource/license10.html)&#xA;- Metro Link Public License 1.00 (available at http://www.opengroup.org/openmotif/supporters/metrolink/license.html)&#xA;- Mozilla Public License Version 1.1 (available at http://www.mozilla.org/MPL/MPL-1.1.html)&#xA;&#xA;IT IS YOUR OBLIGATION TO READ AND ACCEPT ALL SUCH TERMS AND CONDITIONS PRIOR&#xA;TO USE OF THE CONTENT. If no About, Feature License or Feature Update License&#xA;is provided, please contact the Eclipse Foundation to determine what terms and conditions&#xA;govern that particular Content.&#xA;&#xA;Cryptography&#xA;&#xA;Content may contain encryption software. The country in which you are&#xA;currently may have restrictions on the import, possession, and use,&#xA;and/or re-export to another country, of encryption software. BEFORE&#xA;using any encryption software, please check the country&apos;s laws,&#xA;regulations and policies concerning the import, possession, or use,&#xA;and re-export of encryption software, to see if this is permitted.&#xA;'/>
+      </properties>
+      <provides size='2'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.sdk.samples.feature.group' version='3.2.0'/>
+        <provided namespace='org.eclipse.equinox.p2.localization' name='df_LT' version='1.0.0'/>
+      </provides>
+      <requires size='5'>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.platform.feature.group' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.jdt.feature.group' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.pde.feature.group' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.sdk.samples' range='[3.2.0,3.2.0]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.sdk.samples.feature.jar' range='[3.2.0,3.2.0]'>
+          <filter>
+            (org.eclipse.update.install.features=true)
+          </filter>
+        </required>
+      </requires>
+      <touchpoint id='null' version='0.0.0'/>
+      <licenses size='1'>
+        <license>
+          %license
+        </license>
+      </licenses>
+      <copyright>
+        %copyright
+      </copyright>
+    </unit>
+    <unit id='org.eclipse.sdk.samples.feature.jar' version='3.3.0'>
+      <properties size='7'>
+        <property name='org.eclipse.equinox.p2.name' value='%featureName'/>
+        <property name='org.eclipse.equinox.p2.description' value='%description'/>
+        <property name='org.eclipse.equinox.p2.provider' value='Eclipse.org'/>
+        <property name='df_LT.featureName' value='Eclipse SDK Samples'/>
+        <property name='df_LT.description' value='Eclipse SDK code samples designed to work with Eclipse SDK 3.3 release.'/>
+        <property name='df_LT.copyright' value='Copyright 2004, 2007 IBM and others.'/>
+        <property name='df_LT.license' value='ECLIPSE FOUNDATION SOFTWARE USER AGREEMENT&#xA;January 28, 2004&#xA;&#xA;Usage Of Content&#xA;&#xA;THE ECLIPSE FOUNDATION MAKES AVAILABLE SOFTWARE, DOCUMENTATION, INFORMATION AND/OR&#xA;OTHER MATERIALS FOR OPEN SOURCE PROJECTS (COLLECTIVELY &quot;CONTENT&quot;).&#xA;USE OF THE CONTENT IS GOVERNED BY THE TERMS AND CONDITIONS OF THIS&#xA;AGREEMENT AND/OR THE TERMS AND CONDITIONS OF LICENSE AGREEMENTS OR&#xA;NOTICES INDICATED OR REFERENCED BELOW. BY USING THE CONTENT, YOU&#xA;AGREE THAT YOUR USE OF THE CONTENT IS GOVERNED BY THIS AGREEMENT&#xA;AND/OR THE TERMS AND CONDITIONS OF ANY APPLICABLE LICENSE AGREEMENTS&#xA;OR NOTICES INDICATED OR REFERENCED BELOW. IF YOU DO NOT AGREE TO THE&#xA;TERMS AND CONDITIONS OF THIS AGREEMENT AND THE TERMS AND CONDITIONS&#xA;OF ANY APPLICABLE LICENSE AGREEMENTS OR NOTICES INDICATED OR REFERENCED&#xA;BELOW, THEN YOU MAY NOT USE THE CONTENT.&#xA;&#xA;Applicable Licenses&#xA;&#xA;Unless otherwise indicated, all Content made available by the Eclipse Foundation&#xA;is provided to you under the terms and conditions of the Eclipse Public&#xA;License Version 1.0 (&quot;EPL&quot;). A copy of the EPL is provided with this&#xA;Content and is also available at http://www.eclipse.org/legal/epl-v10.html.&#xA;For purposes of the EPL, &quot;Program&quot; will mean the Content.&#xA;&#xA;Content includes, but is not limited to, source code, object code,&#xA;documentation and other files maintained in the Eclipse.org CVS&#xA;repository (&quot;Repository&quot;) in CVS modules (&quot;Modules&quot;) and made available&#xA;as downloadable archives (&quot;Downloads&quot;).&#xA;&#xA;Content may be apportioned into plug-ins (&quot;Plug-ins&quot;), plug-in fragments&#xA;(&quot;Fragments&quot;), and features (&quot;Features&quot;). A Feature is a bundle of one or&#xA;more Plug-ins and/or Fragments and associated material. Files named&#xA;&quot;feature.xml&quot; may contain a list of the names and version numbers of the&#xA;Plug-ins and/or Fragments associated with a Feature. Plug-ins and Fragments&#xA;are located in directories named &quot;plugins&quot; and Features are located in&#xA;directories named &quot;features&quot;.&#xA;&#xA;Features may also include other Features (&quot;Included Features&quot;). Files named&#xA;&quot;feature.xml&quot; may contain a list of the names and version numbers of&#xA;Included Features.&#xA;&#xA;The terms and conditions governing Plug-ins and Fragments should be&#xA;contained in files named &quot;about.html&quot; (&quot;Abouts&quot;). The terms and&#xA;conditions governing Features and Included Features should be contained&#xA;in files named &quot;license.html&quot; (&quot;Feature Licenses&quot;). Abouts and Feature&#xA;Licenses may be located in any directory of a Download or Module&#xA;including, but not limited to the following locations:&#xA;&#xA;- The top-level (root) directory&#xA;- Plug-in and Fragment directories&#xA;- Subdirectories of the directory named &quot;src&quot; of certain Plug-ins&#xA;- Feature directories&#xA;&#xA;Note: if a Feature made available by the Eclipse Foundation is installed using the&#xA;Eclipse Update Manager, you must agree to a license (&quot;Feature Update&#xA;License&quot;) during the installation process. If the Feature contains&#xA;Included Features, the Feature Update License should either provide you&#xA;with the terms and conditions governing the Included Features or inform&#xA;you where you can locate them. Feature Update Licenses may be found in&#xA;the &quot;license&quot; property of files named &quot;feature.properties&quot;. Such Abouts,&#xA;Feature Licenses and Feature Update Licenses contain the terms and&#xA;conditions (or references to such terms and conditions) that govern your&#xA;use of the associated Content in that directory.&#xA;&#xA;THE ABOUTS, FEATURE LICENSES AND FEATURE UPDATE LICENSES MAY REFER&#xA;TO THE CPL OR OTHER LICENSE AGREEMENTS, NOTICES OR TERMS AND CONDITIONS.&#xA;SOME OF THESE OTHER LICENSE AGREEMENTS MAY INCLUDE (BUT ARE NOT LIMITED TO):&#xA;&#xA;- Common Public License Version 1.0 (available at http://www.eclipse.org/legal/cpl-v10.html)&#xA;- Apache Software License 1.1 (available at http://www.apache.org/licenses/LICENSE)&#xA;- Apache Software License 2.0 (available at http://www.apache.org/licenses/LICENSE-2.0)&#xA;- IBM Public License 1.0 (available at http://oss.software.ibm.com/developerworks/opensource/license10.html)&#xA;- Metro Link Public License 1.00 (available at http://www.opengroup.org/openmotif/supporters/metrolink/license.html)&#xA;- Mozilla Public License Version 1.1 (available at http://www.mozilla.org/MPL/MPL-1.1.html)&#xA;&#xA;IT IS YOUR OBLIGATION TO READ AND ACCEPT ALL SUCH TERMS AND CONDITIONS PRIOR&#xA;TO USE OF THE CONTENT. If no About, Feature License or Feature Update License&#xA;is provided, please contact the Eclipse Foundation to determine what terms and conditions&#xA;govern that particular Content.&#xA;&#xA;Cryptography&#xA;&#xA;Content may contain encryption software. The country in which you are&#xA;currently may have restrictions on the import, possession, and use,&#xA;and/or re-export to another country, of encryption software. BEFORE&#xA;using any encryption software, please check the country&apos;s laws,&#xA;regulations and policies concerning the import, possession, or use,&#xA;and re-export of encryption software, to see if this is permitted.&#xA;'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.sdk.samples.feature.jar' version='3.3.0'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='feature' version='1.0.0'/>
+        <provided namespace='org.eclipse.update.feature' name='org.eclipse.sdk.samples' version='3.3.0'/>
+      </provides>
+      <filter>
+        (org.eclipse.update.install.features=true)
+      </filter>
+      <artifacts size='1'>
+        <artifact classifier='org.eclipse.update.feature' id='org.eclipse.sdk.samples' version='3.3.0'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='zipped'>
+            true
+          </instruction>
+        </instructions>
+      </touchpointData>
+      <licenses size='1'>
+        <license>
+          %license
+        </license>
+      </licenses>
+      <copyright>
+        %copyright
+      </copyright>
+    </unit>
+    <unit id='org.eclipse.sdk.samples.feature.jar' version='3.1.0'>
+      <properties size='7'>
+        <property name='org.eclipse.equinox.p2.name' value='%featureName'/>
+        <property name='org.eclipse.equinox.p2.description' value='%description'/>
+        <property name='org.eclipse.equinox.p2.provider' value='Eclipse.org'/>
+        <property name='df_LT.featureName' value='Eclipse SDK Samples'/>
+        <property name='df_LT.description' value='Eclipse SDK code samples designed to work with Eclipse SDK 3.1 release.'/>
+        <property name='df_LT.copyright' value='Copyright 2004, 2005 IBM and others.'/>
+        <property name='df_LT.license' value='ECLIPSE FOUNDATION SOFTWARE USER AGREEMENT&#xA;January 28, 2004&#xA;&#xA;Usage Of Content&#xA;&#xA;THE ECLIPSE FOUNDATION MAKES AVAILABLE SOFTWARE, DOCUMENTATION, INFORMATION AND/OR&#xA;OTHER MATERIALS FOR OPEN SOURCE PROJECTS (COLLECTIVELY &quot;CONTENT&quot;).&#xA;USE OF THE CONTENT IS GOVERNED BY THE TERMS AND CONDITIONS OF THIS&#xA;AGREEMENT AND/OR THE TERMS AND CONDITIONS OF LICENSE AGREEMENTS OR&#xA;NOTICES INDICATED OR REFERENCED BELOW. BY USING THE CONTENT, YOU&#xA;AGREE THAT YOUR USE OF THE CONTENT IS GOVERNED BY THIS AGREEMENT&#xA;AND/OR THE TERMS AND CONDITIONS OF ANY APPLICABLE LICENSE AGREEMENTS&#xA;OR NOTICES INDICATED OR REFERENCED BELOW. IF YOU DO NOT AGREE TO THE&#xA;TERMS AND CONDITIONS OF THIS AGREEMENT AND THE TERMS AND CONDITIONS&#xA;OF ANY APPLICABLE LICENSE AGREEMENTS OR NOTICES INDICATED OR REFERENCED&#xA;BELOW, THEN YOU MAY NOT USE THE CONTENT.&#xA;&#xA;Applicable Licenses&#xA;&#xA;Unless otherwise indicated, all Content made available by the Eclipse Foundation&#xA;is provided to you under the terms and conditions of the Eclipse Public&#xA;License Version 1.0 (&quot;EPL&quot;). A copy of the EPL is provided with this&#xA;Content and is also available at http://www.eclipse.org/legal/epl-v10.html.&#xA;For purposes of the EPL, &quot;Program&quot; will mean the Content.&#xA;&#xA;Content includes, but is not limited to, source code, object code,&#xA;documentation and other files maintained in the Eclipse.org CVS&#xA;repository (&quot;Repository&quot;) in CVS modules (&quot;Modules&quot;) and made available&#xA;as downloadable archives (&quot;Downloads&quot;).&#xA;&#xA;Content may be apportioned into plug-ins (&quot;Plug-ins&quot;), plug-in fragments&#xA;(&quot;Fragments&quot;), and features (&quot;Features&quot;). A Feature is a bundle of one or&#xA;more Plug-ins and/or Fragments and associated material. Files named&#xA;&quot;feature.xml&quot; may contain a list of the names and version numbers of the&#xA;Plug-ins and/or Fragments associated with a Feature. Plug-ins and Fragments&#xA;are located in directories named &quot;plugins&quot; and Features are located in&#xA;directories named &quot;features&quot;.&#xA;&#xA;Features may also include other Features (&quot;Included Features&quot;). Files named&#xA;&quot;feature.xml&quot; may contain a list of the names and version numbers of&#xA;Included Features.&#xA;&#xA;The terms and conditions governing Plug-ins and Fragments should be&#xA;contained in files named &quot;about.html&quot; (&quot;Abouts&quot;). The terms and&#xA;conditions governing Features and Included Features should be contained&#xA;in files named &quot;license.html&quot; (&quot;Feature Licenses&quot;). Abouts and Feature&#xA;Licenses may be located in any directory of a Download or Module&#xA;including, but not limited to the following locations:&#xA;&#xA;- The top-level (root) directory&#xA;- Plug-in and Fragment directories&#xA;- Subdirectories of the directory named &quot;src&quot; of certain Plug-ins&#xA;- Feature directories&#xA;&#xA;Note: if a Feature made available by the Eclipse Foundation is installed using the&#xA;Eclipse Update Manager, you must agree to a license (&quot;Feature Update&#xA;License&quot;) during the installation process. If the Feature contains&#xA;Included Features, the Feature Update License should either provide you&#xA;with the terms and conditions governing the Included Features or inform&#xA;you where you can locate them. Feature Update Licenses may be found in&#xA;the &quot;license&quot; property of files named &quot;feature.properties&quot;. Such Abouts,&#xA;Feature Licenses and Feature Update Licenses contain the terms and&#xA;conditions (or references to such terms and conditions) that govern your&#xA;use of the associated Content in that directory.&#xA;&#xA;THE ABOUTS, FEATURE LICENSES AND FEATURE UPDATE LICENSES MAY REFER&#xA;TO THE CPL OR OTHER LICENSE AGREEMENTS, NOTICES OR TERMS AND CONDITIONS.&#xA;SOME OF THESE OTHER LICENSE AGREEMENTS MAY INCLUDE (BUT ARE NOT LIMITED TO):&#xA;&#xA;- Common Public License Version 1.0 (available at http://www.eclipse.org/legal/cpl-v10.html)&#xA;- Apache Software License 1.1 (available at http://www.apache.org/licenses/LICENSE)&#xA;- Apache Software License 2.0 (available at http://www.apache.org/licenses/LICENSE-2.0)&#xA;- IBM Public License 1.0 (available at http://oss.software.ibm.com/developerworks/opensource/license10.html)&#xA;- Metro Link Public License 1.00 (available at http://www.opengroup.org/openmotif/supporters/metrolink/license.html)&#xA;- Mozilla Public License Version 1.1 (available at http://www.mozilla.org/MPL/MPL-1.1.html)&#xA;&#xA;IT IS YOUR OBLIGATION TO READ AND ACCEPT ALL SUCH TERMS AND CONDITIONS PRIOR&#xA;TO USE OF THE CONTENT. If no About, Feature License or Feature Update License&#xA;is provided, please contact the Eclipse Foundation to determine what terms and conditions&#xA;govern that particular Content.&#xA;&#xA;Cryptography&#xA;&#xA;Content may contain encryption software. The country in which you are&#xA;currently may have restrictions on the import, possession, and use,&#xA;and/or re-export to another country, of encryption software. BEFORE&#xA;using any encryption software, please check the country&apos;s laws,&#xA;regulations and policies concerning the import, possession, or use,&#xA;and re-export of encryption software, to see if this is permitted.&#xA;'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.sdk.samples.feature.jar' version='3.1.0'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='feature' version='1.0.0'/>
+        <provided namespace='org.eclipse.update.feature' name='org.eclipse.sdk.samples' version='3.1.0'/>
+      </provides>
+      <filter>
+        (org.eclipse.update.install.features=true)
+      </filter>
+      <artifacts size='1'>
+        <artifact classifier='org.eclipse.update.feature' id='org.eclipse.sdk.samples' version='3.1.0'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='zipped'>
+            true
+          </instruction>
+        </instructions>
+      </touchpointData>
+      <licenses size='1'>
+        <license>
+          %license
+        </license>
+      </licenses>
+      <copyright>
+        %copyright
+      </copyright>
+    </unit>
+    <unit id='org.eclipse.sdk.samples' version='3.3.0' singleton='false'>
+      <update id='org.eclipse.sdk.samples' range='[0.0.0,3.3.0)' severity='0'/>
+      <properties size='1'>
+        <property name='org.eclipse.equinox.p2.partial.iu' value='true'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.sdk.samples' version='3.3.0'/>
+        <provided namespace='osgi.bundle' name='org.eclipse.sdk.samples' version='3.3.0'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.eclipse.sdk.samples' version='3.3.0'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='2'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.eclipse.sdk.samples&#xA;Bundle-Version: 3.3.0&#xA;
+          </instruction>
+          <instruction key='zipped'>
+            true
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.eclipse.sdk.samples' version='3.1.0' singleton='false'>
+      <update id='org.eclipse.sdk.samples' range='[0.0.0,3.1.0)' severity='0'/>
+      <properties size='1'>
+        <property name='org.eclipse.equinox.p2.partial.iu' value='true'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.sdk.samples' version='3.1.0'/>
+        <provided namespace='osgi.bundle' name='org.eclipse.sdk.samples' version='3.1.0'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.eclipse.sdk.samples' version='3.1.0'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='2'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.eclipse.sdk.samples&#xA;Bundle-Version: 3.1.0&#xA;
+          </instruction>
+          <instruction key='zipped'>
+            true
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+  </units>
+</repository>

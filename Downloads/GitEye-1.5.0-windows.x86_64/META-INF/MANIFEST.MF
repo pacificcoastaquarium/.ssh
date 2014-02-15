@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Created-By: 1.7.0_25 (Oracle Corporation)
+
+Name: eclipsec.exe
+SHA-256-Digest: 82aRKAOa7Ui6cytZFpeuhF9XhYcK6V/aMOCOETz67tQ=
+
+Name: GitEye.exe
+SHA-256-Digest: zDkDFHAuUlhvEGhx4yNUdjvdrD4ulUGFz5MZUymuvLo=
+

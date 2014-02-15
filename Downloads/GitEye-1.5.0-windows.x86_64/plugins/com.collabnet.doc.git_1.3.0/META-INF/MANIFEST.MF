@@ -1,0 +1,448 @@
+Manifest-Version: 1.0
+Bundle-Vendor: CollabNet
+Eclipse-LazyStart: true
+Bundle-Version: 1.3.0
+Bundle-Name: GitEye Documentation
+Bundle-Localization: plugin
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: com.collabnet.doc.git;singleton:=true
+
+Name: images/screenshots/giteye-generatesshkey.png
+SHA1-Digest: elUMiyG81MwKDc6kEzLOokgHBp8=
+
+Name: action/desktop_editdocument.html
+SHA1-Digest: u4ELOvP6+gOweisyxjseiQbGnok=
+
+Name: images/screenshots/giteye-gitrepo1.png
+SHA1-Digest: 1mV9CPp3X+eoltIGZWXtMMdNrK0=
+
+Name: action/desktop_reorderplanningfolders.html
+SHA1-Digest: Ik2bUCTqNloFa6xNXS/57OLFsy4=
+
+Name: action/desktop_addCTFdocfolder.html
+SHA1-Digest: WY5Io92X8LxCddCEuSaKJsj2Qhc=
+
+Name: action/cndesktop_usetaskboard.html
+SHA1-Digest: 7YYM1pcobpLM7ffxxUGAZq7iIOE=
+
+Name: action/add_CTF_tracker_association.html
+SHA1-Digest: kvQVMdFN6qNg4bN1zg9kemvVE9o=
+
+Name: action/createplanningfolder.html
+SHA1-Digest: Ye0pi34bSOxUEGNICBUn+cpctWE=
+
+Name: faq/velocity.html
+SHA1-Digest: deLwAIpMUiISOsv0YU2yyTO6sqQ=
+
+Name: action/giteye_codereviews.html
+SHA1-Digest: 7QL4xZpaHkKgQTh/k8+ziMcH/lo=
+
+Name: images/screenshots/configureplanningboard-git-10.png
+SHA1-Digest: +rdIlIR5mnNpDjXjdksTb6oor6E=
+
+Name: action/cndesktop_addfavoritetools.html
+SHA1-Digest: 88nDbAP4zSw9rqbk6dmKdEbeP0c=
+
+Name: css/onlinehelp.css
+SHA1-Digest: ilzg+1v4+9R28RNADS5DE87XH8M=
+
+Name: images/screenshots/add-collabnetsite-icon.png
+SHA1-Digest: TQIERsEE2fI3uRpv4K2nrcyZjWg=
+
+Name: action/documents.html
+SHA1-Digest: n2Ptrv72sdd5quaW8nkhtlAOsq8=
+
+Name: faq/capacity.html
+SHA1-Digest: OUzY6Ut7UNwIGgOWFTGp4u4glJs=
+
+Name: action/delete_CTF_tracker_association.html
+SHA1-Digest: Cz2ZndggskKxGbWpGsz+LPhBXdg=
+
+Name: images/screenshots/giteye-clonerepo0.png
+SHA1-Digest: pA7MuS6evSsJ9o4gAKt/MPF4ecA=
+
+Name: action/cndesktop_addCTFsite.html
+SHA1-Digest: HpUSt3/Vc9jxhs2utjbCgwFZjk4=
+
+Name: images/screenshots/configureplanningboard-git-20.png
+SHA1-Digest: DsJYgNzNa8TNc/Pc7bMIi/UxEzk=
+
+Name: action/desktop_addCTFtrackerquery.html
+SHA1-Digest: f/MW8/04loarcLzo5/OSshYRuH0=
+
+Name: faq/effort.html
+SHA1-Digest: 40q3YDrqpMw+EfZAZtq+MlFuWVo=
+
+Name: action/cndesktop_associatingdocuments.html
+SHA1-Digest: Rx3r2D1BV6T3p4OrKzSYCvvqA1s=
+
+Name: action/cndesktop_exportquerydefinition.html
+SHA1-Digest: OrVAPREEvbWpbplISlvsiG/EQAw=
+
+Name: faq/desktop_documentconcept.html
+SHA1-Digest: 9tdif5/4+GLPZoj9vIUeZwtL5uQ=
+
+Name: images/screenshots/eclipse-cf-tfproject.png
+SHA1-Digest: FAa2KgS+Zs9ctvqDMYm5xDvR1Us=
+
+Name: images/screenshots/giteye-dashboard-cloudforge.png
+SHA1-Digest: N0WA+rFSsl0aHl7B/zoUxmcn/Vk=
+
+Name: action/delete_CTF_task_association.html
+SHA1-Digest: /k0EDGy5rCotSomNCABb12Do2Xc=
+
+Name: css/commonltr.css
+SHA1-Digest: BwyVWMfpiiZHmLwe7IT/biLfQX4=
+
+Name: action/cndesktop_addCTFtask.html
+SHA1-Digest: N190UqTC1D9gtFZM5H1hi3U1cHI=
+
+Name: action/cndesktop_updatereleasedata.html
+SHA1-Digest: iz0zvN3RuKRZ4KV9fXdXk0Ge6Qo=
+
+Name: action/desktop_usedynamicplanning.html
+SHA1-Digest: giL3VQTfEbnG1HB8ebXccNHhvx4=
+
+Name: action/favorites_in_eclipsedesktop.html
+SHA1-Digest: Flc2Zh0iGUPKz98PExwIIpGJXk0=
+
+Name: images/screenshots/taskboard22-git.png
+SHA1-Digest: NMA06z/GOeg9/54r9px34MFzfVU=
+
+Name: images/screenshots/giteye-builds.png
+SHA1-Digest: fgsryc7STcKsCruMxK5hya2WNmg=
+
+Name: action/cndesktop_viewassociations.html
+SHA1-Digest: +2td96H1EbeutdOjYnmAiUJa3CU=
+
+Name: action/cndesktop_addCTFtrackerartifact.html
+SHA1-Digest: PrrNBKun30akbXtU/J2ZfZ3FmPc=
+
+Name: images/screenshots/tf-gerrit-node.png
+SHA1-Digest: EIsXHzrQOmdfSIx2xuGzKNEQCXM=
+
+Name: action/cndesktop_addfavoriteprojects.html
+SHA1-Digest: EPR/2Rl0kKRkBVccRZNDHULwxbs=
+
+Name: action/giteye_getstarted.html
+SHA1-Digest: qf9Uz7tD4Z552M6PX+lFrrQZvEI=
+
+Name: images/screenshots/rankicon.png
+SHA1-Digest: AIVpOmTd0IggqZqf5ZR9HnHntrs=
+
+Name: images/screenshots/taskboard-highlight-eclipse.png
+SHA1-Digest: XAvkyYvWeFa6f2glTdIvr2U8vO0=
+
+Name: images/screenshots/cndesktop-favoritesitetools-git.png
+SHA1-Digest: xScNRJkjRIY3XuLL9el4sKJbNNE=
+
+Name: images/screenshots/taskboard3-git.png
+SHA1-Digest: lZZ8Wc4+IAZWr/Gf41kwDsbLs5E=
+
+Name: images/screenshots/giteye-cnsites.png
+SHA1-Digest: wgEa5hNL/5HeE0xoVnzkuyHhp8o=
+
+Name: images/screenshots/artifactcard-git.png
+SHA1-Digest: g5U7pCN0qQU7HKW4bxiA9tQH/b4=
+
+Name: action/scope.html
+SHA1-Digest: vDyKx5uLQYVSwjVb3JVEa5t+tag=
+
+Name: action/cndesktop_unlockdocument.html
+SHA1-Digest: MivvPCsyrWjlPJnK2hHM2WolczA=
+
+Name: images/screenshots/charts-burndown.png
+SHA1-Digest: vsD+oBLrwQHUuLy3+YJC8kvvytw=
+
+Name: faq/whatisgiteye.html
+SHA1-Digest: bpa8EJBfEGb0V4nzTHyOyDEoMAs=
+
+Name: images/screenshots/planningfolderarea-git.png
+SHA1-Digest: cpNidG5MjOssgd1eMtk7ZM8QMLA=
+
+Name: action/desktop_CTF.html
+SHA1-Digest: A1yoH3x4+UkrekxH14SMOdEE9do=
+
+Name: action/uat.html
+SHA1-Digest: qumeS6I0EI9qN0zq/2L43I1ApBg=
+
+Name: action/cndesktop_configuringartifactdependencies.html
+SHA1-Digest: S5BST7qQnIphYidlOs7MO6xnaII=
+
+Name: images/screenshots/desktop-eclipse-exportdata.png
+SHA1-Digest: eQVZ0hou9IQzvwcybD0AUVsjCjg=
+
+Name: delta.gif
+SHA1-Digest: wPncfaZojTlMN7x7To/TFOqUKZA=
+
+Name: faq/burndown.html
+SHA1-Digest: PkLVKZIsgNYLSTRbgvO596R8Gug=
+
+Name: action/desktop_addcfusers.html
+SHA1-Digest: qLFZUIQ2gCFsS3POMjE64c66jJQ=
+
+Name: images/screenshots/taskboard1-git.png
+SHA1-Digest: qJnrx99KRK1xqSZYwmqJMDkNRi0=
+
+Name: contexts.xml
+SHA1-Digest: z+aeoYRSOfH2J5rHrWafxNPipk4=
+
+Name: faq/cndesktop_tasksconcept.html
+SHA1-Digest: yYISaCrse0bddvk5P1M4ZxEPtcs=
+
+Name: images/screenshots/cndesktop-addcfsite3.png
+SHA1-Digest: NUnLC5OByVdBRhw9Ay1Rlt2MsfU=
+
+Name: faq/planningfolder.html
+SHA1-Digest: X41PKlQVTErQvdRFugrbSqnkNJE=
+
+Name: images/screenshots/cndesktop-associationtreexml.png
+SHA1-Digest: 7EEUAFEF3D3YETK2ULhFB45dCOY=
+
+Name: action/giteye_createnewrepo.html
+SHA1-Digest: xXzMzzUcb0PSothSxxz/DzlIAYI=
+
+Name: images/screenshots/cndesktop-favoriteprojecttools-git.png
+SHA1-Digest: wfoh3iquOGvMZkLRC9RXM+kJQ3w=
+
+Name: images/screenshots/giteye-clonegitoptions.png
+SHA1-Digest: HudzmYzgK6I84lZwbOUE1nG0saY=
+
+Name: images/screenshots/cndesktop-favoritetftools-git.png
+SHA1-Digest: 5FrrTTtDI8/ZmqTVwde2L6wVHNA=
+
+Name: plugin.xml
+SHA1-Digest: NRq/B9rylyR1TAzv8BnPkFZzqmo=
+
+Name: action/cndesktop_addCTFfiletorelease.html
+SHA1-Digest: GBFyYj+u7vB35QkriHGqZalZ85g=
+
+Name: action/desktop_addCTFdoc.html
+SHA1-Digest: mlbVdbcU0geqNRFXX1qtBaGl9Sk=
+
+Name: images/screenshots/taskboard-notification-eclipse.png
+SHA1-Digest: e9StwHUBgNFkVk5QNqTOfQKpt8A=
+
+Name: images/screenshots/agiletaskboardui-eclipse.png
+SHA1-Digest: us0WvtedVYrZUcnVPaR6j7HUv6g=
+
+Name: action/cndesktop_importquerydefinition.html
+SHA1-Digest: g3eIZTHrbCS0KZx7D0RpOB+mYlQ=
+
+Name: action/giteye_addlocalrepo.html
+SHA1-Digest: U4DSXii+RPW66m1UdFlHKCZM9ug=
+
+Name: images/screenshots/cndesktop-favoriteprojects-git.png
+SHA1-Digest: CTzdcgFRJrE8vTpT2jp8Od0gM3Y=
+
+Name: faq/openvsclosed.html
+SHA1-Digest: BGpwKaLYgTJNvsFi+IN97cTi/0o=
+
+Name: action/cndesktop_configuretaskboard.html
+SHA1-Digest: /s4HpYViEXgr6l7tyvkxWMW4eZ0=
+
+Name: faq/openbypriority.html
+SHA1-Digest: aesRfvuwBwTYpMuTKrouP6srbFs=
+
+Name: images/screenshots/giteye-gerritreview.png
+SHA1-Digest: +hr0rsAGc+LSE5DjbvH4mzKX3Us=
+
+Name: images/screenshots/configureplanningboard-git-30.png
+SHA1-Digest: M38NghEGpBccIO0zq7rjS3J1Qgw=
+
+Name: action/desktop_addCTFrelease.html
+SHA1-Digest: HEhHyvolB8CQRoIqlZnxe+5sQdg=
+
+Name: com.collabnet.doc.giteye.xml
+SHA1-Digest: cwqz1FcWLisRTeGSNyrDbe3x05E=
+
+Name: images/screenshots/cndesktop-associationtree.png
+SHA1-Digest: OnHsaWtQ2wjStUk+BqTL86tGNLs=
+
+Name: action/giteye_get.html
+SHA1-Digest: zu00cvC9pQIO/nnuC7GKX41WSEw=
+
+Name: action/trackers.html
+SHA1-Digest: HMUzrGWu2dwHRW5IG4Gn7K8dvdI=
+
+Name: action/giteye_cnsites.html
+SHA1-Digest: N1ij1jk37cwAgdZMWBwzSaduwEU=
+
+Name: faq/charts.html
+SHA1-Digest: 4eg2/SeXyPy2it/aXP7Jq6k+U4A=
+
+Name: action/cndesktop_sharequerysettings.html
+SHA1-Digest: 6cOPd6AVLPTGLrbcecsPGPd9P18=
+
+Name: action/giteye_addsshkey.html
+SHA1-Digest: iDjvA/UH6zh8Qx7IauWR23Nn89Q=
+
+Name: action/giteye_gitrepos.html
+SHA1-Digest: 2pkevBHhLwCIQSVScvt2OIhVwis=
+
+Name: plugin.properties
+SHA1-Digest: Ha2v3jN0C6KaE4GgWHxnKUiseNY=
+
+Name: images/screenshots/giteye-clonerepo2.png
+SHA1-Digest: ftIJNkrTegP3yjOJlgl63uGlxx0=
+
+Name: css/commonrtl.css
+SHA1-Digest: D5WR+QmEjBEy/QM675yiC9W/53A=
+
+Name: faq/releasesconcept.html
+SHA1-Digest: gNUmZftKoULNwfJ0V0pswbRF20M=
+
+Name: action/desktop_updateplanningfolder.html
+SHA1-Digest: IYnWMF6DRq9NsyPbgDSCZKVXu0o=
+
+Name: action/giteye_builds.html
+SHA1-Digest: HGwWx3xo6j0oWYNAKpt00B0iPCY=
+
+Name: action/desktop_addcodesionproject.html
+SHA1-Digest: b+TkwNGzJOkBMrinQnqLv758drY=
+
+Name: action/tasks.html
+SHA1-Digest: xrmYqDcbTl6I8IS1gBsqENodl2I=
+
+Name: images/screenshots/cndesktop-eclipse-clientcert.png
+SHA1-Digest: 2XevhMEzvQEPBx5TI9QXy73Q3EU=
+
+Name: images/screenshots/planeditor-reorder.png
+SHA1-Digest: 3yOS32x936wEilq+wA81JbOpi4Q=
+
+Name: images/screenshots/cndesktop-autoassigntasks-checkbox-eclipse.pn
+ g
+SHA1-Digest: 0gyw5FSPVyXYGheROLYeYRsrmD8=
+
+Name: action/cndesktop_planningboard.html
+SHA1-Digest: sc2a+3ZkdzUdYz+IXs/c/LQ/JGA=
+
+Name: action/giteye_clonerepo.html
+SHA1-Digest: XB7Ut6tk8yOhplz5JqsBw00Gogs=
+
+Name: action/releases.html
+SHA1-Digest: dol4Ji4su6m75YqWZJ6p9SQlzi0=
+
+Name: reference/giteye_dashboard.html
+SHA1-Digest: swOY/v751yDXD/p1CLK1uNj47Ac=
+
+Name: faq/cloudforge_overview.html
+SHA1-Digest: 3sokPbPbKlO5/Es6+PZaFSW7Yjs=
+
+Name: action/assigntoplanningfolder_desktop.html
+SHA1-Digest: ZxG/VQ05CdVNWPAkWvdmzyJ/K0I=
+
+Name: images/screenshots/giteye-updates.png
+SHA1-Digest: K3/C6GbJsARkiHLvsRkCfhrfPZo=
+
+Name: images/screenshots/planningboard-git.png
+SHA1-Digest: m6vFp/StjKM/9apqUfWBhlBHNXY=
+
+Name: action/cndesktop_agiletaskboard.html
+SHA1-Digest: NHhL9SFkoUqVLn/PLnDB3kXLkZI=
+
+Name: images/screenshots/newstory-eclipse.png
+SHA1-Digest: DTkQef25LYEJqtuggsr1VLOoAME=
+
+Name: faq/storypoints.html
+SHA1-Digest: T3WTiRj2NI6QXZAUnd8l6K1T5f8=
+
+Name: images/screenshots/planeditor-charts.png
+SHA1-Digest: Z1QilembtDLjaQ6FdWPL8oEZmQw=
+
+Name: action/cndesktop_updatedocumentdata.html
+SHA1-Digest: 8DKmg3DstGkC6p6jPPjtBrZJVBg=
+
+Name: action/monitorprogress_desktop.html
+SHA1-Digest: eeydTamPcZfnPCCAWWyEzSpFWRQ=
+
+Name: faq/dynamicplanning.html
+SHA1-Digest: 2trSpYBZ4E7rtmEjaJg+HZ3k68U=
+
+Name: faq/iteration.html
+SHA1-Digest: 1PNfiJTVLqm2dKss0+Za6iQvYQ0=
+
+Name: action/desktop_reorderplanningfoldercontent.html
+SHA1-Digest: ljyA/Ip1RUTMXz36iXK/K44M9mI=
+
+Name: action/add_CTF_task_association.html
+SHA1-Digest: oAEvRPJDy1qfvPJHzhepWYcrB60=
+
+Name: faq/CTF_tracker_concept.html
+SHA1-Digest: BnIYUhriCPDeCibO8DMNScP+bOo=
+
+Name: action/cndesktop_createCTFtaskdependency.html
+SHA1-Digest: 6XWvHojGmAeVGQRbM90qB0+UbVQ=
+
+Name: action/planningfolder.html
+SHA1-Digest: G8pI7cX4kx2wozAk3dJB2WyZcdA=
+
+Name: action/cndesktop_configureplanningboard.html
+SHA1-Digest: t1i2JyAjq6Hg0LoTHNhR58ZTEGI=
+
+Name: images/screenshots/giteye-clonerepo1.png
+SHA1-Digest: p5ohPV8UtEEoRkb32dCs2sUiA6c=
+
+Name: action/cndesktop_lockdocument.html
+SHA1-Digest: i3hwgpLVKOte5qnJuneQ1vbC7RA=
+
+Name: action/cndesktop_addCTFtaskfolder.html
+SHA1-Digest: KYf0BgDMSN/QvYWkugZOhMelrOs=
+
+Name: action/giteye_bringingitrepos.html
+SHA1-Digest: biH8K/le/HF6F0pm7N9LOjIzjJE=
+
+Name: action/cndesktop_tf_gerrit_integration.html
+SHA1-Digest: kuU0eD3VSMl51G1s7z2YO383+8w=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: 6mDW8kS/T9pK7w1by/wcxy21Z20=
+
+Name: action/desktop_exportdata.html
+SHA1-Digest: 25b6CaiclwA1ErcswNPXIyYlSlo=
+
+Name: action/desktop_moveplanningfolder.html
+SHA1-Digest: rxZtdcLANO/mqh7/SB6T9pljfL8=
+
+Name: action/desktop_addCTFpackage.html
+SHA1-Digest: 3RMWyEakr0suO3cKe3HUjp2LU2s=
+
+Name: deltaend.gif
+SHA1-Digest: gok7I6VKs42bg9fQFaX//n7ocbI=
+
+Name: action/cndesktop_codesion.html
+SHA1-Digest: pm6okm24tLZBjXCepIJCVV/qloM=
+
+Name: images/screenshots/sfee_associations.png
+SHA1-Digest: VjQA6K0FjE7dnBVO+ER/HHXOUCQ=
+
+Name: action/desktop_reordertrackers.html
+SHA1-Digest: PHo9sgryFXoXRcJkhMvZDtcx2fg=
+
+Name: action/cndesktop_addcodesionsite.html
+SHA1-Digest: 9sHQ1ysIpdUZ8l2Vs4/bvzWoHLs=
+
+Name: images/screenshots/configureplanningboard-git-40.png
+SHA1-Digest: 5yhlJymjIoDaX0zt7ggAVA5KdkA=
+
+Name: action/cndesktop_addCTFtaskquery.html
+SHA1-Digest: JtrRNLO6C7GVmbJlABgmMqcE7OI=
+
+Name: images/screenshots/giteye-dashboard-gitactions.png
+SHA1-Digest: NodeqQuMKdVhMsrf3dwUsU3k7Aw=
+
+Name: images/screenshots/giteye-addlocalrepo.png
+SHA1-Digest: iB3fBnYOI6NAO6TWWYcwY1vraHY=
+
+Name: images/screenshots/taskboard21-git.png
+SHA1-Digest: RYW4olQEYLM+LJMZ4jlrpZeOF50=
+
+Name: images/screenshots/planningboard-listmode-git.png
+SHA1-Digest: tQzifS4Vx0pjKfuf6wBZnzXaDAU=
+
+Name: images/screenshots/cf-webui-users.png
+SHA1-Digest: CD3ioNdMUnJSGLDwUgPb170tGYQ=
+
+Name: action/cndesktop_useplanningboard.html
+SHA1-Digest: W2tAna3UQUENp915Px2sanWZGBo=
+

@@ -1,0 +1,14 @@
+eclipse.preferences.version=1
+repositories/file\:_C\:_Users_Stephen_Downloads_GitEye-1.5.0-windows.x86_64_p2_org.eclipse.equinox.p2.core_cache/description=
+repositories/file\:_C\:_Users_Stephen_Downloads_GitEye-1.5.0-windows.x86_64_p2_org.eclipse.equinox.p2.core_cache/enabled=true
+repositories/file\:_C\:_Users_Stephen_Downloads_GitEye-1.5.0-windows.x86_64_p2_org.eclipse.equinox.p2.core_cache/isSystem=true
+repositories/file\:_C\:_Users_Stephen_Downloads_GitEye-1.5.0-windows.x86_64_p2_org.eclipse.equinox.p2.core_cache/name=download cache
+repositories/file\:_C\:_Users_Stephen_Downloads_GitEye-1.5.0-windows.x86_64_p2_org.eclipse.equinox.p2.core_cache/provider=
+repositories/file\:_C\:_Users_Stephen_Downloads_GitEye-1.5.0-windows.x86_64_p2_org.eclipse.equinox.p2.core_cache/suffix=artifacts.xml
+repositories/file\:_C\:_Users_Stephen_Downloads_GitEye-1.5.0-windows.x86_64_p2_org.eclipse.equinox.p2.core_cache/type=org.eclipse.equinox.p2.artifact.repository.simpleRepository
+repositories/file\:_C\:_Users_Stephen_Downloads_GitEye-1.5.0-windows.x86_64_p2_org.eclipse.equinox.p2.core_cache/uri=file\:/C\:/Users/Stephen/Downloads/GitEye-1.5.0-windows.x86_64/p2/org.eclipse.equinox.p2.core/cache/
+repositories/file\:_C\:_Users_Stephen_Downloads_GitEye-1.5.0-windows.x86_64_p2_org.eclipse.equinox.p2.core_cache/version=1.0.0
+repositories/http\:__downloads.open.collab.net_git_giteye_release/enabled=true
+repositories/http\:__downloads.open.collab.net_git_giteye_release/isSystem=false
+repositories/http\:__downloads.open.collab.net_git_giteye_release/nickname=GitEye
+repositories/http\:__downloads.open.collab.net_git_giteye_release/uri=http\://downloads.open.collab.net/git/giteye/release/

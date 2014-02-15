@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin>
+   <extension point="org.eclipse.help.toc">
+      <toc file="com.collabnet.doc.giteye.xml" primary="true"/>
+   </extension>
+</plugin>

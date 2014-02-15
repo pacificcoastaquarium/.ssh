@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en-us" xml:lang="en-us">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="copyright" content="(C) Copyright 2005"/>
+<meta name="DC.rights.owner" content="(C) Copyright 2005"/>
+<meta name="DC.Type" content="task"/>
+<meta name="DC.Title" content="Add a CloudForge project"/>
+<meta name="abstract" content="A CloudForge project is a container where you can add services such as TeamForge, Subversion and Git, and project members who can access these services."/>
+<meta name="description" content="A CloudForge project is a container where you can add services such as TeamForge, Subversion and Git, and project members who can access these services."/>
+<meta name="DC.Relation" scheme="URI" content="../action/cndesktop_codesion.html"/>
+<meta name="DC.Relation" scheme="URI" content="../action/cndesktop_addcodesionsite.html"/>
+<meta name="DC.Relation" scheme="URI" content="../action/desktop_addcfusers.html"/>
+<meta name="DC.Relation" scheme="URI" content="http://blogs.collab.net/cloudforge/teamforge"/>
+<meta name="DC.Format" content="XHTML"/>
+<meta name="DC.Identifier" content="xxx"/>
+<meta name="DC.Language" content="en-us"/>
+<link rel="stylesheet" type="text/css" href="../css/commonltr.css"/>
+<link rel="stylesheet" type="text/css" href="../css/onlinehelp.css"/>
+<title>Add a CloudForge project</title>
+</head>
+<body id="xxx"><a name="xxx"><!-- --></a>
+
+
+    <h1 class="title topictitle1">Add a <span class="keyword">CloudForge</span> project</h1>
+
+    
+    
+
+    <div class="body taskbody"><p class="shortdesc">A <span class="keyword">CloudForge</span> project is a container where
+        you can add services such as <span class="keyword">TeamForge</span>, Subversion
+        and Git, and project members who can access these services.</p>
+        
+        <ol class="ol steps"><li class="li step">
+                <span class="ph cmd">In the <span class="keyword wintitle">CollabNet Sites</span> view, right-click a <span class="keyword">CloudForge</span> site and select <span class="ph uicontrol">Add
+                            <span class="keyword">CloudForge</span> project</span>. </span>
+                 Or click <span class="ph uicontrol">New Project</span> in the
+                            <span class="keyword wintitle">Dashboard</span>'s <span class="keyword wintitle">CloudForge</span>
+                        tab.
+
+                 The <span class="keyword wintitle">Add CloudForge project</span> dialog appears.
+                    
+                
+            </li>
+<li class="li step">
+                <span class="ph cmd">Enter the <span class="ph uicontrol">Project name</span>. </span>
+                 This is the project's title and is displayed in the <span class="keyword wintitle">CollabNet
+                        Sites</span> view.
+            </li>
+<li class="li step"><strong>Optional: </strong>
+                <span class="ph cmd">The <span class="ph uicontrol">Short name</span> gets populated with whatever you enter
+                    for Project name.</span>
+                  You can edit it, but it must be unique within the account. This is a shortcut
+                    and is used within access URLs. 
+                    <ul class="ul">
+                        <li class="li">The <span class="ph uicontrol">Short name</span> must start with a letter.</li>
+
+                        <li class="li">It cannot contain spaces or special characters.</li>
+
+                    </ul>
+
+                
+            </li>
+<li class="li step">
+                <span class="ph cmd">Select services for your project.</span>
+                 Your choices are <span class="keyword">TeamForge</span> and Git.
+                    Adding services at this stage is optional. You can add them at any point
+                    after your project is created. <ul class="ul">
+                        <li class="li">When you select Git, a Git repository is added
+                        to the project; access URLs take the form
+                            <samp class="ph codeph">domainname.git.cloudforge.com/projectname</samp>.</li>
+
+                        
+                        <li class="li">When you
+                        select <span class="keyword">TeamForge</span>, its various ALM
+                            and Agile tools become available in the project.</li>
+</ul>
+
+            </li>
+<li class="li step">
+                <span class="ph cmd">Click <span class="ph uicontrol">Finish</span>.</span>
+            </li>
+</ol>
+
+        <div class="section result"> When you've added a <span class="keyword">CloudForge</span> project
+            with <span class="keyword">TeamForge</span>, you can expand the <span class="keyword">TeamForge</span> node to see the child nodes you would
+            have in a regular <span class="keyword">TeamForge</span> project. (The
+            Source Code node is not displayed.) <div class="fig fignone">
+                <img class="image" src="../images/screenshots/eclipse-cf-tfproject.png" alt="Expand a CloudForge project with TeamForge"/>
+            </div>
+
+            <ul class="ul">
+                <li class="li">To add (more) services to a <span class="keyword">CloudForge</span>
+                    project, right-click the project node, select <span class="ph uicontrol">Add <span class="keyword">CloudForge</span> Service</span> and
+                    select the ones you want. </li>
+
+                <li class="li">The <span class="ph uicontrol">Create <span class="keyword">TeamForge</span>
+                        site</span> option is enabled for a <span class="keyword">TeamForge</span> service node if a corresponding
+                        <span class="keyword">TeamForge</span> site has not already
+                    been created. You can use this option to create a new (top-level) <span class="keyword">TeamForge</span> site. </li>
+                
+                <li class="li"><span class="ph">You have options for cloning a Git service node via SSH or HTTPS.</span>
+                    These options invoke the Clone Git Repository wizard where you can provide your
+                    password and the repository location to clone. <div class="fig fignone">
+                        <img class="image" src="../images/screenshots/giteye-clonegitoptions.png" alt="Clone Git repository options"/>
+                    </div>
+
+                </li>
+               
+                <li class="li">For the access URL and other details, right-click the item in the
+                        <span class="keyword wintitle">CollabNet Sites</span> view and select <span class="ph menucascade">
+                        <span class="ph uicontrol">Window</span>
+                         &gt; <span class="ph uicontrol">Show View</span>
+                         &gt; <span class="ph uicontrol">Properties</span>
+                        </span>.</li>
+
+                <li class="li">To add users to your project, double-click the project and use the web interface.</li>
+
+            </ul>
+
+        </div>
+        
+    </div>
+
+    <div class="related-links">
+<div class="familylinks">
+</div>
+<div class="relinfo reltasks"><strong>Related actions</strong><br/>
+<div><a class="link" href="../action/cndesktop_addcodesionsite.html" title="Whether you're a developer or project manager, you can enhance your CloudForge experience by adding your site to GitEye. Once you add your site, you can add new projects and services or continue with your existing setup while getting all the additional benefits GitEye provides.">Add a CloudForge site</a></div>
+<div><a class="link" href="../action/desktop_addcfusers.html" title="Before your team can start work on a project, you need to add them as project users.">Add CloudForge users</a></div>
+</div>
+<div class="relinfo"><strong>More information</strong><br/>
+<div><a class="link" href="http://blogs.collab.net/cloudforge/teamforge" target="_blank">Blog post - TeamForge: An Essential Cog Driving <span class="keyword">CloudForge</span></a></div>
+</div>
+</div>
+
+
+</body>
+</html>

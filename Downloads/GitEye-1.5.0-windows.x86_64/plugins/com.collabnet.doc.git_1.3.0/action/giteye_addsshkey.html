@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en-us" xml:lang="en-us">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="copyright" content="(C) Copyright 2005"/>
+<meta name="DC.rights.owner" content="(C) Copyright 2005"/>
+<meta name="DC.Type" content="task"/>
+<meta name="DC.Title" content="Generate an SSH key"/>
+<meta name="abstract" content="It is common to access Git repositories using SSH keys."/>
+<meta name="description" content="It is common to access Git repositories using SSH keys."/>
+<meta name="DC.Relation" scheme="URI" content="../action/giteye_getstarted.html"/>
+<meta name="DC.Relation" scheme="URI" content="../reference/giteye_dashboard.html"/>
+<meta name="DC.Relation" scheme="URI" content="http://www.youtube.com/watch?v=NKYaGt5l2w0"/>
+<meta name="DC.Relation" scheme="URI" content="http://wiki.eclipse.org/EGit/User_Guide#Eclipse_SSH_Configuration"/>
+<meta name="DC.Format" content="XHTML"/>
+<meta name="DC.Identifier" content="xxx"/>
+<meta name="DC.Language" content="en-us"/>
+<link rel="stylesheet" type="text/css" href="../css/commonltr.css"/>
+<link rel="stylesheet" type="text/css" href="../css/onlinehelp.css"/>
+<title>Generate an SSH key</title>
+</head>
+<body id="xxx"><a name="xxx"><!-- --></a>
+
+
+    <h1 class="title topictitle1">Generate an SSH key</h1>
+
+
+    
+    <div class="body taskbody"><p class="shortdesc">It is common to access Git repositories using SSH keys. </p>
+
+        <ol><li class="li step">
+                <span class="ph cmd">In <span class="keyword">GitEye</span>'s
+                        <span class="keyword wintitle">Dashboard</span>, click <span class="ph uicontrol">SSH
+                    Settings</span>.</span>
+                 <p class="p">The <span class="keyword wintitle">General</span> tab displays your SSH home location.
+                        If you've already been using openSSH, the SSH keys will be picked up from
+                        this location.</p>
+
+                
+            </li>
+<li class="li step">
+                <span class="ph cmd">To generate a new SSH key, click the <span class="keyword wintitle">Key Management</span>
+                    tab.</span>
+                 <p class="p">You are presented with different options to generate
+                    keys.</p>
+
+            </li>
+<li class="li step">
+                <span class="ph cmd">Click <span class="ph uicontrol">Generate RSA Key</span>.</span>
+                 <div class="p">The SSH key pair is generated.<div class="fig fignone">
+                            <img class="image" src="../images/screenshots/giteye-generatesshkey.png" alt="Generate SSH key"/>
+                        </div>
+</div>
+
+                
+            </li>
+<li class="li step">
+                <span class="ph cmd">Add a passphrase to protect the key.</span>
+            </li>
+<li class="li step">
+                <span class="ph cmd">Click <span class="ph uicontrol">Save Private Key</span> and accept the folder where you
+                    want it saved.</span>
+            </li>
+<li class="li step">
+                <span class="ph cmd">Click <span class="ph uicontrol">Apply</span>.</span>
+            </li>
+</ol><p class="li stepsection">You can now paste the public key into your remote authorized_keys file. If
+                you are working with <span class="keyword">TeamForge</span>, here's
+                what you need to do:</p><ol start="7"><li class="li step">
+                <span class="ph cmd">Log into your <span class="keyword">TeamForge</span> site.</span>
+            </li>
+<li class="li step">
+                <span class="ph cmd">On your <span class="ph uicontrol">My Workspace</span> screen, click <span class="ph uicontrol">My
+                        Settings</span> in your personal navigation bar.</span>
+            </li>
+<li class="li step">
+                <span class="ph cmd">On your <span class="ph uicontrol">User Details</span> page, click
+                        <span class="ph uicontrol">Authorization Keys</span>.</span>
+            </li>
+<li class="li step">
+                <span class="ph cmd">On the <span class="keyword wintitle">Authorization Keys</span> page, copy the public key from
+                        <span class="keyword">GitEye</span> and paste it into the
+                        <span class="ph uicontrol">Authorized Keys</span> field.</span>
+            </li>
+<li class="li step">
+                <span class="ph cmd">Click <span class="ph uicontrol">Update</span>.</span>
+            </li>
+</ol>
+        <div class="section result">When you log into a Git repository on your <span class="keyword">TeamForge</span> site, SSH automatically checks your
+            private key against this public key and authenticates you. </div>
+
+    </div>
+
+    <div class="related-links">
+<div class="familylinks">
+</div>
+<div class="relinfo relref"><strong>Related reference information</strong><br/>
+<div><a class="link" href="../reference/giteye_dashboard.html" title="The Dashboard is the place where you add and clone Git repositories, identify yourself for Git commits, configure settings that control client behavior for Git and SSH, and check for product upgrades.">GitEye Dashboard</a></div>
+</div>
+<div class="relinfo"><strong>More information</strong><br/>
+<div><a class="link" href="http://www.youtube.com/watch?v=NKYaGt5l2w0" target="_blank">Video: GiteEye SSH key management</a></div>
+<div><a class="link" href="http://wiki.eclipse.org/EGit/User_Guide#Eclipse_SSH_Configuration" target="_blank">SSH configuration with EGit</a></div>
+</div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<contexts>
+   <context id="xxx">
+      <description>What is GitEye?</description>
+      <topic label="What is GitEye?" href="faq/whatisgiteye.html#xxx"/>
+   </context>
+   <context id="xxx">
+      <description>Get started with GitEye</description>
+      <topic label="Get started with GitEye" href="action/giteye_getstarted.html#xxx"/>
+   </context>
+   <context id="xxx">
+      <description>Get GitEye</description>
+      <topic label="Get GitEye" href="action/giteye_get.html#xxx"/>
+   </context>
+   <context id="xxx">
+      <description>GitEye Dashboard</description>
+      <topic label="GitEye Dashboard" href="reference/giteye_dashboard.html#xxx"/>
+   </context>
+   <context id="xxx">
+      <description>Generate an SSH key</description>
+      <topic label="Generate an SSH key" href="action/giteye_addsshkey.html#xxx"/>
+   </context>
+   <context id="xxx">
+      <description>Bring your Git repositories into GitEye</description>
+      <topic label="Bring your Git repositories into GitEye"
+             href="action/giteye_bringingitrepos.html#xxx"/>
+   </context>
+   <context id="xxx">
+      <description>Add a local repository to GitEye</description>
+      <topic label="Add a local repository to GitEye"
+             href="action/giteye_addlocalrepo.html#xxx"/>
+   </context>
+   <context id="xxx">
+      <description>Clone a remote Git repository</description>
+      <topic label="Clone a remote Git repository" href="action/giteye_clonerepo.html#xxx"/>
+   </context>
+   <context id="xxx">
+      <description>Create a new Git repository</description>
+      <topic label="Create a new Git repository" href="action/giteye_createnewrepo.html#xxx"/>
+   </context>
+   <context id="xxx">
+      <description>Perform Git actions</description>
+      <topic label="Perform Git actions" href="action/giteye_gitrepos.html#xxx"/>
+   </context>
+   <context id="xxx">
+      <description>Plan and track projects</description>
+      <topic label="Plan and track projects" href="action/giteye_cnsites.html#xxx"/>
+   </context>
+   <context id="xxx">
+      <description>Monitor builds</description>
+      <topic label="Monitor builds" href="action/giteye_builds.html#xxx"/>
+   </context>
+   <context id="xxx">
+      <description>Review code</description>
+      <topic label="Review code" href="action/giteye_codereviews.html#xxx"/>
+   </context>
+   <context id="sfee_tracker">
+      <description>Work with TeamForge</description>
+      <topic label="Work with TeamForge" href="action/desktop_CTF.html#sfee_tracker"/>
+   </context>
+   <context id="xxx">
+      <description>Add a new site</description>
+      <topic label="Add a new site" href="action/cndesktop_addCTFsite.html#xxx"/>
+   </context>
+   <context id="xxx">
+      <description>Customize the CollabNet Sites view</description>
+      <topic label="Customize the CollabNet Sites view"
+             href="action/favorites_in_eclipsedesktop.html#xxx"/>
+   </context>
+   <context id="xxx">
+      <description>Work with your favorite projects</description>
+      <topic label="Work with your favorite projects"
+             href="action/cndesktop_addfavoriteprojects.html#xxx"/>
+   </context>
+   <context id="xxx">
+      <description>Work with your favorite tools</description>
+      <topic label="Work with your favorite tools"
+             href="action/cndesktop_addfavoritetools.html#xxx"/>
+   </context>
+   <context id="xxx">
+      <description>Track your work</description>
+      <topic label="Track your work" href="action/trackers.html#xxx"/>
+   </context>
+   <context id="sfee_tracker_concept">
+      <description>What is a TeamForge tracker?</description>
+      <topic label="What is a TeamForge tracker?"
+             href="faq/CTF_tracker_concept.html#sfee_tracker_concept"/>
+   </context>
+   <context id="xxx">
+      <description>Create a tracker query</description>
+      <topic label="Create a tracker query"
+             href="action/desktop_addCTFtrackerquery.html#xxx"/>
+   </context>
+   <context id="xxx">
+      <description>Share tracker query settings</description>
+      <topic label="Share tracker query settings"
+             href="action/cndesktop_sharequerysettings.html#xxx"/>
+   </context>
+   <context id="exportquery">
+      <description>Export query settings</description>
+      <topic label="Export query settings"
+             href="action/cndesktop_exportquerydefinition.html#exportquery"/>
+   </context>
+   <context id="xxx">
+      <description>Import a query</description>
+      <topic label="Import a query" href="action/cndesktop_importquerydefinition.html#xxx"/>
+   </context>
+   <context id="xxx">
+      <description>Create a tracker artifact</description>
+      <topic label="Create a tracker artifact"
+             href="action/cndesktop_addCTFtrackerartifact.html#xxx"/>
+   </context>
+   <context id="add_sfee_tracker_association">
+      <description>Associate a tracker artifact with other items</description>
+      <topic label="Associate a tracker artifact with other items"
+             href="action/add_CTF_tracker_association.html#add_sfee_tracker_association"/>
+   </context>
+   <context id="xxx">
+      <description>Delete a tracker association</description>
+      <topic label="Delete a tracker association"
+             href="action/delete_CTF_tracker_association.html#xxx"/>
+   </context>
+   <context id="xxx">
+      <description>Make a tracker artifact depend on another artifact</description>
+      <topic label="Make a tracker artifact depend on another artifact"
+             href="action/cndesktop_configuringartifactdependencies.html#xxx"/>
+   </context>
+   <context id="xxx">
+      <description>Reorder trackers</description>
+      <topic label="Reorder trackers" href="action/desktop_reordertrackers.html#xxx"/>
+   </context>
+   <context id="agile-">
+      <description>Plan and monitor your project</description>
+      <topic label="Plan and monitor your project"
+             href="action/desktop_usedynamicplanning.html#agile-"/>
+   </context>
+   <context id="agile-">
+      <description>Define the scope of your project</description>
+      <topic label="Define the scope of your project" href="action/scope.html#agile-"/>
+   </context>
+   <context id="agile-">
+      <description>Organize your project with planning folders</description>
+      <topic label="Organize your project with planning folders"
+             href="action/planningfolder.html#agile-"/>
+   </context>
+   <context id="agile-">
+      <description>Create a planning folder</description>
+      <topic label="Create a planning folder" href="action/createplanningfolder.html#agile-"/>
+   </context>
+   <context id="agile-">
+      <description>Update a planning folder</description>
+      <topic label="Update a planning folder"
+             href="action/desktop_updateplanningfolder.html#agile-"/>
+   </context>
+   <context id="agile-">
+      <description>Reorder planning folders</description>
+      <topic label="Reorder planning folders"
+             href="action/desktop_reorderplanningfolders.html#agile-"/>
+   </context>
+   <context id="agile-">
+      <description>Move a planning folder</description>
+      <topic label="Move a planning folder"
+             href="action/desktop_moveplanningfolder.html#agile-"/>
+   </context>
+   <context id="xxx">
+      <description>Reorder the contents of a planning folder</description>
+      <topic label="Reorder the contents of a planning folder"
+             href="action/desktop_reorderplanningfoldercontent.html#xxx"/>
+   </context>
+   <context id="use_taskboard">
+      <description>Manage your sprint with the planning board</description>
+      <topic label="Manage your sprint with the planning board"
+             href="action/cndesktop_planningboard.html#use_taskboard"/>
+   </context>
+   <context id="xxx">
+      <description>Configure the planning board</description>
+      <topic label="Configure the planning board"
+             href="action/cndesktop_configureplanningboard.html#xxx"/>
+   </context>
+   <context id="xxx">
+      <description>Use the planning board</description>
+      <topic label="Use the planning board"
+             href="action/cndesktop_useplanningboard.html#xxx"/>
+   </context>
+   <context id="use_taskboard">
+      <description>Manage tasks with the Agile task board</description>
+      <topic label="Manage tasks with the Agile task board"
+             href="action/cndesktop_agiletaskboard.html#use_taskboard"/>
+   </context>
+   <context id="use_taskboard">
+      <description>Configure the task board</description>
+      <topic label="Configure the task board"
+             href="action/cndesktop_configuretaskboard.html#use_taskboard"/>
+   </context>
+   <context id="use_taskboard">
+      <description>Use the task board</description>
+      <topic label="Use the task board"
+             href="action/cndesktop_usetaskboard.html#use_taskboard"/>
+   </context>
+   <context id="agile-">
+      <description>Monitor project output</description>
+      <topic label="Monitor project output" href="action/uat.html#agile-"/>
+   </context>
+   <context id="agile-">
+      <description>Monitor project progress</description>
+      <topic label="Monitor project progress"
+             href="action/monitorprogress_desktop.html#agile-"/>
+   </context>
+   <context id="xxx">
+      <description>Dynamic planning in TeamForge - FAQ</description>
+      <topic label="Dynamic planning in TeamForge - FAQ" href="faq/dynamicplanning.html#xxx"/>
+   </context>
+   <context id="xxx">
+      <description>What is velocity?</description>
+      <topic label="What is velocity?" href="faq/velocity.html#xxx"/>
+   </context>
+   <context id="xxx">
+      <description>What is a story point?</description>
+      <topic label="What is a story point?" href="faq/storypoints.html#xxx"/>
+   </context>
+   <context id="agile-">
+      <description>How do you measure "effort?"</description>
+      <topic label="How do you measure &#34;effort?&#34;" href="faq/effort.html#agile-"/>
+   </context>
+   <context id="agile-">
+      <description>What are all these charts about?</description>
+      <topic label="What are all these charts about?" href="faq/charts.html#agile-"/>
+   </context>
+   <context id="agile-">
+      <description>What can I learn from a burndown chart?</description>
+      <topic label="What can I learn from a burndown chart?" href="faq/burndown.html#agile-"/>
+   </context>
+   <context id="xxx">
+      <description>What can I learn from a capacity chart?</description>
+      <topic label="What can I learn from a capacity chart?" href="faq/capacity.html#xxx"/>
+   </context>
+   <context id="agile-">
+      <description>What can I learn from an Open by Priority chart?</description>
+      <topic label="What can I learn from an Open by Priority chart?"
+             href="faq/openbypriority.html#agile-"/>
+   </context>
+   <context id="agile-">
+      <description>What can I learn from an Open vs. Closed chart?</description>
+      <topic label="What can I learn from an Open vs. Closed chart?"
+             href="faq/openvsclosed.html#agile-"/>
+   </context>
+   <context id="agile-">
+      <description>What is an iteration?</description>
+      <topic label="What is an iteration?" href="faq/iteration.html#agile-"/>
+   </context>
+   <context id="xxx">
+      <description>Release products</description>
+      <topic label="Release products" href="action/releases.html#xxx"/>
+   </context>
+   <context id="xxx">
+      <description>What is a release?</description>
+      <topic label="What is a release?" href="faq/releasesconcept.html#xxx"/>
+   </context>
+   <context id="xxx">
+      <description>Create a package</description>
+      <topic label="Create a package" href="action/desktop_addCTFpackage.html#xxx"/>
+   </context>
+   <context id="xxx">
+      <description>Create a release</description>
+      <topic label="Create a release" href="action/desktop_addCTFrelease.html#xxx"/>
+   </context>
+   <context id="vsdesk_addSFEEfiletorelease">
+      <description>Add files to a release</description>
+      <topic label="Add files to a release"
+             href="action/cndesktop_addCTFfiletorelease.html#vsdesk_addSFEEfiletorelease"/>
+   </context>
+   <context id="xxx">
+      <description>Update release attributes</description>
+      <topic label="Update release attributes"
+             href="action/cndesktop_updatereleasedata.html#xxx"/>
+   </context>
+   <context id="xxx">
+      <description>Work on tasks</description>
+      <topic label="Work on tasks" href="action/tasks.html#xxx"/>
+   </context>
+   <context id="xxx">
+      <description>What is a task?</description>
+      <topic label="What is a task?" href="faq/cndesktop_tasksconcept.html#xxx"/>
+   </context>
+   <context id="cndesk_addSFEEtaskquery">
+      <description>Add a task query</description>
+      <topic label="Add a task query"
+             href="action/cndesktop_addCTFtaskquery.html#cndesk_addSFEEtaskquery"/>
+   </context>
+   <context id="vsdesk_addSFEEtaskfolder">
+      <description>Create a task folder</description>
+      <topic label="Create a task folder"
+             href="action/cndesktop_addCTFtaskfolder.html#vsdesk_addSFEEtaskfolder"/>
+   </context>
+   <context id="xxx">
+      <description>Create a task</description>
+      <topic label="Create a task" href="action/cndesktop_addCTFtask.html#xxx"/>
+   </context>
+   <context id="xxx">
+      <description>Associate a task with other items</description>
+      <topic label="Associate a task with other items"
+             href="action/add_CTF_task_association.html#xxx"/>
+   </context>
+   <context id="xxx">
+      <description>Delete a task association</description>
+      <topic label="Delete a task association"
+             href="action/delete_CTF_task_association.html#xxx"/>
+   </context>
+   <context id="xxx">
+      <description>Make a task depend on another task</description>
+      <topic label="Make a task depend on another task"
+             href="action/cndesktop_createCTFtaskdependency.html#xxx"/>
+   </context>
+   <context id="xxx">
+      <description>Document your work</description>
+      <topic label="Document your work" href="action/documents.html#xxx"/>
+   </context>
+   <context id="xxx">
+      <description>What is a document?</description>
+      <topic label="What is a document?" href="faq/desktop_documentconcept.html#xxx"/>
+   </context>
+   <context id="addSFEEdocfolder">
+      <description>Create a document folder</description>
+      <topic label="Create a document folder"
+             href="action/desktop_addCTFdocfolder.html#addSFEEdocfolder"/>
+   </context>
+   <context id="vsdesk_addSFEEdoc">
+      <description>Create a document</description>
+      <topic label="Create a document"
+             href="action/desktop_addCTFdoc.html#vsdesk_addSFEEdoc"/>
+   </context>
+   <context id="vsdesk_updatedocdata">
+      <description>Edit a document</description>
+      <topic label="Edit a document"
+             href="action/desktop_editdocument.html#vsdesk_updatedocdata"/>
+   </context>
+   <context id="xxx">
+      <description>Update document data</description>
+      <topic label="Update document data"
+             href="action/cndesktop_updatedocumentdata.html#xxx"/>
+   </context>
+   <context id="xxx">
+      <description>Lock a document</description>
+      <topic label="Lock a document" href="action/cndesktop_lockdocument.html#xxx"/>
+   </context>
+   <context id="xxx">
+      <description>Unlock a document</description>
+      <topic label="Unlock a document" href="action/cndesktop_unlockdocument.html#xxx"/>
+   </context>
+   <context id="xxx">
+      <description>Associate a document with other items</description>
+      <topic label="Associate a document with other items"
+             href="action/cndesktop_associatingdocuments.html#xxx"/>
+   </context>
+   <context id="xxx">
+      <description>Work with Gerrit</description>
+      <topic label="Work with Gerrit" href="action/cndesktop_tf_gerrit_integration.html#xxx"/>
+   </context>
+   <context id="xxx">
+      <description>See an item's association tree</description>
+      <topic label="See an item's association tree"
+             href="action/cndesktop_viewassociations.html#xxx"/>
+   </context>
+   <context id="xxx">
+      <description>Export data</description>
+      <topic label="Export data" href="action/desktop_exportdata.html#xxx"/>
+   </context>
+   <context id="xxx">
+      <description>Work with CloudForge</description>
+      <topic label="Work with CloudForge" href="action/cndesktop_codesion.html#xxx"/>
+   </context>
+   <context id="xxx">
+      <description>CloudForge overview</description>
+      <topic label="CloudForge overview" href="faq/cloudforge_overview.html#xxx"/>
+   </context>
+   <context id="xxx">
+      <description>Add a CloudForge site</description>
+      <topic label="Add a CloudForge site" href="action/cndesktop_addcodesionsite.html#xxx"/>
+   </context>
+   <context id="xxx">
+      <description>Add a CloudForge project</description>
+      <topic label="Add a CloudForge project"
+             href="action/desktop_addcodesionproject.html#xxx"/>
+   </context>
+   <context id="xxx">
+      <description>Add CloudForge users</description>
+      <topic label="Add CloudForge users" href="action/desktop_addcfusers.html#xxx"/>
+   </context>
+</contexts>

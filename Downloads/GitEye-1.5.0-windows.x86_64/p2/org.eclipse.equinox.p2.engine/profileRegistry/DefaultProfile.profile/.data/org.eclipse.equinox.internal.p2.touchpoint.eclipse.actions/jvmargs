@@ -1,0 +1,4 @@
+#Thu Dec 19 17:50:36 UTC 2013
+-Xms=128m
+-XX\:MaxPermSize\==256m
+-Xmx=512m
